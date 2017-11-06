@@ -1,0 +1,168 @@
+<company>
+	<store>
+		<address>
+			<postalCode>1032</postalCode>
+			<city>Budapest</city>
+			<location>
+				<street>Kisteleki</street>
+				<number>10</number>
+			</location>
+		</address>
+
+		<employee>
+			<person idrefs="20001"></person>
+		</employee>
+		
+		<cars>
+			<gasoline>
+				<lowerthan16>
+					<hatchbacks><car idrefs="1001" /></hatchbacks>
+					<familyCar><car idrefs="1002" /></familyCar>
+				</lowerthan16>
+				
+				<greaterthan16>
+					<SUV><car idrefs="1003" /></SUV>
+					<VAN><car idrefs="1004" /></VAN>
+				</greaterthan16>
+			</gasoline>
+			
+			<diesel>
+				<lowerthan16>
+					<hatchbacks><car idrefs="1005" /></hatchbacks>
+					<familyCar><car idrefs="1006" /></familyCar>
+				</lowerthan16>
+				
+				<greaterthan16>
+					<SUV><car idrefs="1007" /></SUV>
+					<VAN><car idrefs="1008" /></VAN>
+				</greaterthan16>
+			</diesel>
+		</cars>
+	</store>
+	
+	<persons>
+		<person id="10001">
+			<name>Kumarnal Intergo</name>
+			<address>
+				<postalCode>4032</postalCode>
+				<city>Debrecen</city>
+				<location>
+					<street>Doberdo</street>
+					<number>1</number>
+					<floor>2</floor>
+					<apartment>7</apartment>
+				</location>
+			</address>
+			<age>45</age>
+			<driverLicense>7589113654</driverLicense>
+		</person>
+		<person id="20001">
+			<name>Rigtiker Melnomár</name>
+			<address>
+				<postalCode>4400</postalCode>
+				<city>Nyíregyháza</city>
+				<location>
+					<street>Kisteleki</street>
+					<number>10</number>
+				</location>
+			</address>
+			<age>45</age>
+			<driverLicense>7589113654</driverLicense>
+		</person>	
+	</persons>
+	
+	<cars>
+		<car id="1001">
+			<category>hatchback</category>
+			<brand>Skoda</brand>
+			<type>Fabia</type>
+			<engine>1.2</engine>
+			<color>White</color>
+			<fuel>petrol</fuel>
+			<vintage>2003</vintage>
+			<licensePlateNumber>IMG-765</licensePlateNumber>
+		</car>
+		<car id="1002">
+			<category>familycar</category>
+			<brand>Ford</brand>
+			<type>Focus</type>
+			<engine>1.4</engine>
+			<color>Red</color>
+			<fuel>petrol</fuel>
+			<vintage>2007</vintage>
+			<licensePlateNumber>KML-543</licensePlateNumber>
+		</car>
+		<car id="1003">
+			<category>SUV</category>
+			<brand>Skoda</brand>
+			<type>Kodiaq</type>
+			<engine>2.0</engine>
+			<color>Blue</color>
+			<fuel>petrol</fuel>
+			<vintage>2017</vintage>
+			<licensePlateNumber>PLK-101</licensePlateNumber>
+		</car>
+		<car id="1004">
+			<category>VAN</category>
+			<brand>Volkswagen</brand>
+			<type>Caddy</type>
+			<engine>1.6</engine>
+			<color>White</color>
+			<fuel>petrol</fuel>
+			<vintage>2015</vintage>
+			<licensePlateNumber>MMM-543</licensePlateNumber>
+		</car>
+		<car id="1005">
+			<category>hatchback</category>
+			<brand>Skoda</brand>
+			<type>Fabia</type>
+			<engine>1.2</engine>
+			<color>White</color>
+			<fuel>diesel</fuel>
+			<vintage>2003</vintage>
+			<licensePlateNumber>IMG-765</licensePlateNumber>
+		</car>
+		<car id="1006">
+			<category>familycar</category>
+			<brand>Ford</brand>
+			<type>Focus</type>
+			<engine>1.4</engine>
+			<color>Red</color>
+			<fuel>diesel</fuel>
+			<vintage>2007</vintage>
+			<licensePlateNumber>KML-543</licensePlateNumber>
+		</car>
+		<car id="1007">
+			<category>SUV</category>
+			<brand>Skoda</brand>
+			<type>Kodiaq</type>
+			<engine>2.0</engine>
+			<color>Blue</color>
+			<fuel>diesel</fuel>
+			<vintage>2017</vintage>
+			<licensePlateNumber>PLK-101</licensePlateNumber>
+		</car>
+		<car id="1008">
+			<category>VAN</category>
+			<brand>Volkswagen</brand>
+			<type>Caddy</type>
+			<engine>1.6</engine>
+			<color>White</color>
+			<fuel>diesel</fuel>
+			<vintage>2015</vintage>
+			<licensePlateNumber>MMM-543</licensePlateNumber>
+		</car>
+	</cars>
+	
+	<rents>
+		<rent>
+			<id>100001</id>
+			<person idrefs="10001"/>
+			<price>17885</price>
+			<currency>HUF</currency>
+			<from>2018-10-10</from>
+			<to>2018-10-20</to>
+		</rent>
+	</rents>
+
+</company>
