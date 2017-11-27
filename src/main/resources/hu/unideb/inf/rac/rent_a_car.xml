@@ -1,6 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <company>
     <storages>
-        <storage>
+        <storage id="100001">
     		<address>
     			<postalCode>1032</postalCode>
     			<city>Budapest</city>
@@ -26,26 +27,54 @@
     		    <hatchbacks>
     		        <petrol>
     		            <lowerthan16>
-    		                <car idrefs="2" />
-    		                <car idrefs="4" />
-    		                <car idrefs="5" />
+    		                <fees>
+    		                    <dalyFee>1000</dalyFee>
+    		                    <distanceFee>100</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+    		                    <car idrefs="2" />
+    		                    <car idrefs="4" />
+    		                    <car idrefs="5" />
+    		                </vehicles>
     		            </lowerthan16>
     		            <greaterthen16>
-    		                <car idrefs="1" />
-    		                <car idrefs="7" />
-    		                <car idrefs="11" />
+    		                <fees>
+    		                    <dalyFee>1235</dalyFee>
+    		                    <distanceFee>150</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+            	                <car idrefs="1" />
+            	                <car idrefs="7" />
+            	                <car idrefs="11" />
+    		                </vehicles>
     		            </greaterthen16>
     		        </petrol>
     		        <diesel>
     		            <lowerthan16>
-    		                <car idrefs="3" />
-    		                <car idrefs="10" />
-    		                <car idrefs="12" />
+    		                <fees>
+    		                    <dalyFee>1100</dalyFee>
+    		                    <distanceFee>130</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+          		                <car idrefs="3" />
+          		                <car idrefs="10" />
+          		                <car idrefs="12" />
+    		                </vehicles>
     		            </lowerthan16>
     		            <greaterthen16>
-    		                <car idrefs="6" />
-    		                <car idrefs="8" />
-    		                <car idrefs="9" />
+    		                <fees>
+    		                    <dalyFee>1400</dalyFee>
+    		                    <distanceFee>160</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+          		                <car idrefs="6" />
+          		                <car idrefs="8" />
+          		                <car idrefs="9" />
+    		                </vehicles>
     		            </greaterthen16>
     		        </diesel>
     		    </hatchbacks>
@@ -53,26 +82,54 @@
     		    <familycars>
     		        <petrol>
     		            <lowerthan16>
-    		                <car idrefs="33" />
-    		                <car idrefs="34" />
-    		                <car idrefs="35" />
+    		                <fees>
+    		                    <dalyFee>1200</dalyFee>
+    		                    <distanceFee>150</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+        		                <car idrefs="33" />
+        		                <car idrefs="34" />
+        		                <car idrefs="35" />
+    		                </vehicles>
     		            </lowerthan16>
     		            <greaterthen16>
-    		                <car idrefs="27" />
-    		                <car idrefs="29" />
-    		                <car idrefs="31" />
+    		                <fees>
+    		                    <dalyFee>1300</dalyFee>
+    		                    <distanceFee>155</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+        		                <car idrefs="27" />
+        		                <car idrefs="29" />
+        		                <car idrefs="31" />
+    		                </vehicles>
     		            </greaterthen16>
     		        </petrol>
     		        <diesel>
     		            <lowerthan16>
-    		                <car idrefs="32" />
-    		                <car idrefs="33" />
-    		                <car idrefs="37" />
+    		                <fees>
+    		                    <dalyFee>1400</dalyFee>
+    		                    <distanceFee>130</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+        		                <car idrefs="32" />
+        		                <car idrefs="33" />
+        		                <car idrefs="37" />
+    		                </vehicles>
     		            </lowerthan16>
     		            <greaterthen16>
-    		                <car idrefs="26" />
-    		                <car idrefs="28" />
-    		                <car idrefs="30" />
+    		                <fees>
+    		                    <dalyFee>1500</dalyFee>
+    		                    <distanceFee>150</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+          		                <car idrefs="26" />
+          		                <car idrefs="28" />
+          		                <car idrefs="30" />
+    		                </vehicles>
     		            </greaterthen16>
     		        </diesel>
     		    </familycars>
@@ -80,26 +137,54 @@
     		    <vans>
     		        <petrol>
     		            <lowerthan16>
-    		                <car idrefs="51" />
-    		                <car idrefs="59" />
-    		                <car idrefs="60" />
+    		                <fees>
+    		                    <dalyFee>1235</dalyFee>
+    		                    <distanceFee>160</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+          		                <car idrefs="51" />
+          		                <car idrefs="59" />
+          		                <car idrefs="60" />
+    		                </vehicles>
     		            </lowerthan16>
     		            <greaterthen16>
-    		                <car idrefs="52" />
-    		                <car idrefs="55" />
-    		                <car idrefs="57" />
+    		                <fees>
+    		                    <dalyFee>1500</dalyFee>
+    		                    <distanceFee>170</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+           		                <car idrefs="52" />
+           		                <car idrefs="55" />
+           		                <car idrefs="57" />
+    		                </vehicles>
     		            </greaterthen16>
     		        </petrol>
     		        <diesel>
     		            <lowerthan16>
-    		                <car idrefs="54" />
-    		                <car idrefs="56" />
-    		                <car idrefs="31" />
+    		                <fees>
+    		                    <dalyFee>1400</dalyFee>
+    		                    <distanceFee>145</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+           		                <car idrefs="54" />
+           		                <car idrefs="56" />
+           		                <car idrefs="31" />
+    		                </vehicles>
     		            </lowerthan16>
     		            <greaterthen16>
-    		                <car idrefs="53" />
-    		                <car idrefs="58" />
-    		                <car idrefs="62" />
+    		                <fees>
+    		                    <dalyFee>1700</dalyFee>
+    		                    <distanceFee>110</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+           		                <car idrefs="53" />
+           		                <car idrefs="58" />
+           		                <car idrefs="62" />
+    		                </vehicles>
     		            </greaterthen16>
     		        </diesel>
     		    </vans>
@@ -107,32 +192,60 @@
     		    <suvs>
     		        <petrol>
     		            <lowerthan16>
-    		                <car idrefs="76" />
-    		                <car idrefs="79" />
-    		                <car idrefs="80" />
+    		                <fees>
+    		                    <dalyFee>1600</dalyFee>
+    		                    <distanceFee>150</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+           		                <car idrefs="76" />
+           		                <car idrefs="79" />
+           		                <car idrefs="80" />
+    		                </vehicles>
     		            </lowerthan16>
     		            <greaterthen16>
-    		                <car idrefs="77" />
-    		                <car idrefs="83" />
-    		                <car idrefs="86" />
+    		                <fees>
+    		                    <dalyFee>1800</dalyFee>
+    		                    <distanceFee>200</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+           		                <car idrefs="77" />
+           		                <car idrefs="83" />
+           		                <car idrefs="86" />
+    		                </vehicles>
     		            </greaterthen16>
     		        </petrol>
     		        <diesel>
     		            <lowerthan16>
-    		                <car idrefs="78" />
-    		                <car idrefs="82" />
-    		                <car idrefs="85" />
+    		                <fees>
+    		                    <dalyFee>2000</dalyFee>
+    		                    <distanceFee>220</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+           		                <car idrefs="78" />
+           		                <car idrefs="82" />
+           		                <car idrefs="85" />
+    		                </vehicles>
     		            </lowerthan16>
     		            <greaterthen16>
-    		                <car idrefs="81" />
-    		                <car idrefs="84" />
-    		                <car idrefs="87" />
+    		                <fees>
+    		                    <dalyFee>3000</dalyFee>
+    		                    <distanceFee>150</distanceFee>
+    		                    <currency>HUF</currency>
+    		                </fees>
+    		                <vehicles>
+               	                <car idrefs="81" />
+               	                <car idrefs="84" />
+               	                <car idrefs="87" />
+    		                </vehicles>
     		            </greaterthen16>
     		        </diesel>
     		    </suvs>
     		</rentableCars>
         </storage>
-        <storage>
+        <storage id="100002">
             <address>
                 <postalCode>4032</postalCode>
                 <city>Debrecen</city>
@@ -158,27 +271,55 @@
                 <hatchbacks>
                     <petrol>
                         <lowerthan16>
-                            <car idrefs="17" />
-                            <car idrefs="20" />
-                            <car idrefs="22" />
+                            <fees>
+                                <dalyFee>1200</dalyFee>
+                                <distanceFee>120</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="17" />
+                                 <car idrefs="20" />
+                                 <car idrefs="22" />
+                            </vehicles>
                         </lowerthan16>
                         <greaterthen16>
-                            <car idrefs="14" />
-                            <car idrefs="15" />
-                            <car idrefs="24" />
+                            <fees>
+                                <dalyFee>1300</dalyFee>
+                                <distanceFee>150</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                  <car idrefs="14" />
+                                  <car idrefs="15" />
+                                  <car idrefs="24" />
+                            </vehicles>
                         </greaterthen16>
                     </petrol>
                     <diesel>
                         <lowerthan16>
-                            <car idrefs="18" />
-                            <car idrefs="19" />
-                            <car idrefs="21" />
+                            <fees>
+                                <dalyFee>1400</dalyFee>
+                                <distanceFee>150</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="18" />
+                                 <car idrefs="19" />
+                                 <car idrefs="21" />
+                            </vehicles>
                         </lowerthan16>
                         <greaterthen16>
-                            <car idrefs="13" />
-                            <car idrefs="16" />
-                            <car idrefs="23" />
-                            <car idrefs="25" />
+                            <fees>
+                                <dalyFee>1500</dalyFee>
+                                <distanceFee>160</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="13" />
+                                 <car idrefs="16" />
+                                 <car idrefs="23" />
+                                 <car idrefs="25" />
+                            </vehicles>
                         </greaterthen16>
                     </diesel>
                 </hatchbacks>
@@ -186,27 +327,55 @@
                 <familycars>
                     <petrol>
                         <lowerthan16>
-                            <car idrefs="41" />
-                            <car idrefs="46" />
-                            <car idrefs="47" />
-                            <car idrefs="50" />
+                            <fees>
+                                <dalyFee>1235</dalyFee>
+                                <distanceFee>130</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="41" />
+                                 <car idrefs="46" />
+                                 <car idrefs="47" />
+                                 <car idrefs="50" />
+                            </vehicles>
                         </lowerthan16>
                         <greaterthen16>
-                            <car idrefs="40" />
-                            <car idrefs="42" />
-                            <car idrefs="43" />
+                            <fees>
+                                <dalyFee>1200</dalyFee>
+                                <distanceFee>170</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="40" />
+                                 <car idrefs="42" />
+                                 <car idrefs="43" />
+                            </vehicles>
                         </greaterthen16>
                     </petrol>
                     <diesel>
                         <lowerthan16>
-                            <car idrefs="29" />
-                            <car idrefs="45" />
-                            <car idrefs="48" />
+                            <fees>
+                                <dalyFee>1500</dalyFee>
+                                <distanceFee>140</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="29" />
+                                 <car idrefs="45" />
+                                 <car idrefs="48" />
+                            </vehicles>
                         </lowerthan16>
                         <greaterthen16>
-                            <car idrefs="38" />
-                            <car idrefs="44" />
-                            <car idrefs="49" />
+                            <fees>
+                                <dalyFee>1600</dalyFee>
+                                <distanceFee>150</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="38" />
+                                 <car idrefs="44" />
+                                 <car idrefs="49" />
+                            </vehicles>
                         </greaterthen16>
                     </diesel>
                 </familycars>
@@ -214,27 +383,55 @@
                 <vans>
                     <petrol>
                         <lowerthan16>
-                            <car idrefs="68" />
-                            <car idrefs="70" />
-                            <car idrefs="71" />
+                            <fees>
+                                <dalyFee>1700</dalyFee>
+                                <distanceFee>130</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="68" />
+                                 <car idrefs="70" />
+                                 <car idrefs="71" />
+                            </vehicles>
                         </lowerthan16>
                         <greaterthen16>
-                            <car idrefs="64" />
-                            <car idrefs="66" />
-                            <car idrefs="57" />
+                            <fees>
+                                <dalyFee>1800</dalyFee>
+                                <distanceFee>150</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="64" />
+                                 <car idrefs="66" />
+                                 <car idrefs="57" />
+                            </vehicles>
                         </greaterthen16>
                     </petrol>
                     <diesel>
                         <lowerthan16>
-                            <car idrefs="72" />
-                            <car idrefs="73" />
-                            <car idrefs="74" />
+                            <fees>
+                                <dalyFee>1800</dalyFee>
+                                <distanceFee>140</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="72" />
+                                 <car idrefs="73" />
+                                 <car idrefs="74" />
+                            </vehicles>
                         </lowerthan16>
                         <greaterthen16>
-                            <car idrefs="63" />
-                            <car idrefs="65" />
-                            <car idrefs="69" />
-                            <car idrefs="75" />
+                            <fees>
+                                <dalyFee>1900</dalyFee>
+                                <distanceFee>150</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="63" />
+                                 <car idrefs="65" />
+                                 <car idrefs="69" />
+                                 <car idrefs="75" />
+                            </vehicles>
                         </greaterthen16>
                     </diesel>
                 </vans>
@@ -242,27 +439,55 @@
                 <suvs>
                     <petrol>
                         <lowerthan16>
-                            <car idrefs="92" />
-                            <car idrefs="93" />
-                            <car idrefs="97" />
+                            <fees>
+                                <dalyFee>2100</dalyFee>
+                                <distanceFee>150</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="92" />
+                                 <car idrefs="93" />
+                                 <car idrefs="97" />
+                            </vehicles>
                         </lowerthan16>
                         <greaterthen16>
-                            <car idrefs="88" />
-                            <car idrefs="90" />
-                            <car idrefs="95" />
+                            <fees>
+                                <dalyFee>2200</dalyFee>
+                                <distanceFee>170</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                 <car idrefs="88" />
+                                 <car idrefs="90" />
+                                 <car idrefs="95" />
+                            </vehicles>
                         </greaterthen16>
                     </petrol>
                     <diesel>
                         <lowerthan16>
-                            <car idrefs="91" />
-                            <car idrefs="98" />
-                            <car idrefs="99" />
-                            <car idrefs="100" />
+                            <fees>
+                                <dalyFee>2500</dalyFee>
+                                <distanceFee>150</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                <car idrefs="91" />
+                                <car idrefs="98" />
+                                <car idrefs="99" />
+                                <car idrefs="100" />
+                            </vehicles>
                         </lowerthan16>
                         <greaterthen16>
-                            <car idrefs="89" />
-                            <car idrefs="94" />
-                            <car idrefs="96" />
+                            <fees>
+                                <dalyFee>3000</dalyFee>
+                                <distanceFee>150</distanceFee>
+                                <currency>HUF</currency>
+                            </fees>
+                            <vehicles>
+                                <car idrefs="89" />
+                                <car idrefs="94" />
+                                <car idrefs="96" />
+                            </vehicles>
                         </greaterthen16>
                     </diesel>
                 </suvs>
@@ -1732,18 +1957,367 @@
        </car>
 	</cars>
 	
-	<rents>
-		<rent>
-			<id>100001</id>
-		    <storage idrefs="10001"/>
-			<person idrefs="1011"/>
-			<price>17885</price>
-			<currency>HUF</currency>
-			<from>2018-10-10</from>
-			<to>2018-10-20</to>
-			<distance>3241</distance>
-			<distanceUnit>Metric</distanceUnit>
-		</rent>
-	</rents>
+    <rents>
+        <rent>
+            <id>1000001</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1027"/>
+            <total>162377</total>
+            <currency>HUF</currency>
+            <from>2016/12/05</from>
+            <to>2017/11/06</to>
+            <distance>215</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="12"/>
+        </rent>
+        <rent>
+            <id>1000002</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1023"/>
+            <total>23058</total>
+            <currency>HUF</currency>
+            <from>2017/04/28</from>
+            <to>2017/07/21</to>
+            <distance>54</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="68"/>
+        </rent>
+        <rent>
+            <id>1000003</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1021"/>
+            <total>91196</total>
+            <currency>HUF</currency>
+            <from>2017/01/20</from>
+            <to>2017/10/23</to>
+            <distance>360</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="28"/>
+        </rent>
+        <rent>
+            <id>1000004</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1026"/>
+            <total>68312</total>
+            <currency>HUF</currency>
+            <from>2017/04/13</from>
+            <to>2017/08/09</to>
+            <distance>443</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="56"/>
+        </rent>
+        <rent>
+            <id>1000005</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1016"/>
+            <total>46092</total>
+            <currency>HUF</currency>
+            <from>2017/03/09</from>
+            <to>2017/08/16</to>
+            <distance>314</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="10"/>
+        </rent>
+        <rent>
+            <id>1000006</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1026"/>
+            <total>47222</total>
+            <currency>HUF</currency>
+            <from>2017/02/25</from>
+            <to>2017/08/15</to>
+            <distance>253</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="41"/>
+        </rent>
+        <rent>
+            <id>1000007</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1020"/>
+            <total>155092</total>
+            <currency>HUF</currency>
+            <from>2017/01/01</from>
+            <to>2017/10/24</to>
+            <distance>133</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="53"/>
+        </rent>
+        <rent>
+            <id>1000008</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1024"/>
+            <total>65993</total>
+            <currency>HUF</currency>
+            <from>2017/02/18</from>
+            <to>2017/11/15</to>
+            <distance>408</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="82"/>
+        </rent>
+        <rent>
+            <id>1000009</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1015"/>
+            <total>30464</total>
+            <currency>HUF</currency>
+            <from>2016/12/10</from>
+            <to>2017/08/28</to>
+            <distance>408</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="59"/>
+        </rent>
+        <rent>
+            <id>1000010</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1017"/>
+            <total>136085</total>
+            <currency>HUF</currency>
+            <from>2017/05/02</from>
+            <to>2017/09/28</to>
+            <distance>306</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="95"/>
+        </rent>
+        <rent>
+            <id>1000011</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1018"/>
+            <total>91955</total>
+            <currency>HUF</currency>
+            <from>2017/05/08</from>
+            <to>2017/09/28</to>
+            <distance>495</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="51"/>
+        </rent>
+        <rent>
+            <id>1000012</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1019"/>
+            <total>12463</total>
+            <currency>HUF</currency>
+            <from>2016/12/06</from>
+            <to>2017/07/03</to>
+            <distance>125</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="26"/>
+        </rent>
+        <rent>
+            <id>1000013</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1020"/>
+            <total>25647</total>
+            <currency>HUF</currency>
+            <from>2017/05/19</from>
+            <to>2017/11/29</to>
+            <distance>39</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="39"/>
+        </rent>
+        <rent>
+            <id>1000014</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1020"/>
+            <total>89563</total>
+            <currency>HUF</currency>
+            <from>2017/04/24</from>
+            <to>2017/08/02</to>
+            <distance>48</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="59"/>
+        </rent>
+        <rent>
+            <id>1000015</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1012"/>
+            <total>156112</total>
+            <currency>HUF</currency>
+            <from>2017/01/07</from>
+            <to>2017/11/13</to>
+            <distance>253</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="24"/>
+        </rent>
+        <rent>
+            <id>1000016</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1013"/>
+            <total>117127</total>
+            <currency>HUF</currency>
+            <from>2017/02/16</from>
+            <to>2017/09/02</to>
+            <distance>226</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="33"/>
+        </rent>
+        <rent>
+            <id>1000017</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1016"/>
+            <total>134517</total>
+            <currency>HUF</currency>
+            <from>2017/04/11</from>
+            <to>2017/06/25</to>
+            <distance>72</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="14"/>
+        </rent>
+        <rent>
+            <id>1000018</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1018"/>
+            <total>80191</total>
+            <currency>HUF</currency>
+            <from>2017/06/10</from>
+            <to>2017/07/01</to>
+            <distance>293</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="66"/>
+        </rent>
+        <rent>
+            <id>1000019</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1025"/>
+            <total>162096</total>
+            <currency>HUF</currency>
+            <from>2017/05/14</from>
+            <to>2017/06/18</to>
+            <distance>483</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="32"/>
+        </rent>
+        <rent>
+            <id>1000020</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1023"/>
+            <total>50749</total>
+            <currency>HUF</currency>
+            <from>2017/05/15</from>
+            <to>2017/07/27</to>
+            <distance>89</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="48"/>
+        </rent>
+        <rent>
+            <id>1000021</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1028"/>
+            <total>127992</total>
+            <currency>HUF</currency>
+            <from>2017/03/23</from>
+            <to>2017/09/30</to>
+            <distance>406</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="36"/>
+        </rent>
+        <rent>
+            <id>1000022</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1022"/>
+            <total>40917</total>
+            <currency>HUF</currency>
+            <from>2017/03/19</from>
+            <to>2017/06/18</to>
+            <distance>412</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="95"/>
+        </rent>
+        <rent>
+            <id>1000023</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1012"/>
+            <total>43128</total>
+            <currency>HUF</currency>
+            <from>2016/12/16</from>
+            <to>2017/10/12</to>
+            <distance>36</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="35"/>
+        </rent>
+        <rent>
+            <id>1000024</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1012"/>
+            <total>39945</total>
+            <currency>HUF</currency>
+            <from>2017/05/01</from>
+            <to>2017/11/28</to>
+            <distance>388</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="88"/>
+        </rent>
+        <rent>
+            <id>1000025</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1016"/>
+            <total>120952</total>
+            <currency>HUF</currency>
+            <from>2017/04/30</from>
+            <to>2017/11/15</to>
+            <distance>392</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="18"/>
+        </rent>
+        <rent>
+            <id>1000026</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1019"/>
+            <total>70810</total>
+            <currency>HUF</currency>
+            <from>2017/05/10</from>
+            <to>2017/06/21</to>
+            <distance>77</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="38"/>
+        </rent>
+        <rent>
+            <id>1000027</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1023"/>
+            <total>121003</total>
+            <currency>HUF</currency>
+            <from>2017/02/07</from>
+            <to>2017/11/09</to>
+            <distance>391</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="65"/>
+        </rent>
+        <rent>
+            <id>1000028</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1022"/>
+            <total>48996</total>
+            <currency>HUF</currency>
+            <from>2017/05/31</from>
+            <to>2017/06/20</to>
+            <distance>37</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="39"/>
+        </rent>
+        <rent>
+            <id>1000029</id>
+            <storage idrefs="100002"/>
+            <person idrefs="1026"/>
+            <total>100253</total>
+            <currency>HUF</currency>
+            <from>2016/12/31</from>
+            <to>2017/07/12</to>
+            <distance>406</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="46"/>
+        </rent>
+        <rent>
+            <id>1000030</id>
+            <storage idrefs="100001"/>
+            <person idrefs="1018"/>
+            <total>91136</total>
+            <currency>HUF</currency>
+            <from>2017/02/25</from>
+            <to>2017/11/08</to>
+            <distance>412</distance>
+            <distanceUnit>Metric</distanceUnit>
+            <car idrefs="82"/>
+        </rent>
+    </rents>
 
 </company>
