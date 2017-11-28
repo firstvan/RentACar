@@ -1,10 +1,11 @@
-package hu.unideb.inf.rac;
+package hu.unideb.inf.rac.reslet;
 
 import hu.unideb.inf.jaxb.JAXBUtil;
+import hu.unideb.inf.rac.dao.FirstBaseXDB;
 import hu.unideb.inf.rac.model.Car;
 import org.restlet.resource.ServerResource;
 
-public class FirstQuery extends ServerResource implements CarResource {
+public class CarResourceImpl extends ServerResource implements CarResource {
 
     @Override
     public Car retive() {

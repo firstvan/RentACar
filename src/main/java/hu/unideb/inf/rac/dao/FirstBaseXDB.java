@@ -1,4 +1,4 @@
-package hu.unideb.inf.rac;
+package hu.unideb.inf.rac.dao;
 
 import org.basex.api.client.ClientSession;
 

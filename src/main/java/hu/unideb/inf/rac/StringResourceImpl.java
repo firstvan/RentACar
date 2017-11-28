@@ -1,6 +1,7 @@
 package hu.unideb.inf.rac;
 
 import hu.unideb.inf.jaxb.JAXBUtil;
+import hu.unideb.inf.rac.dao.FirstBaseXDB;
 import hu.unideb.inf.rac.model.Car;
 import org.restlet.resource.ServerResource;
 

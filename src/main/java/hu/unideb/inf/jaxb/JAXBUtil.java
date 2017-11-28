@@ -54,6 +54,5 @@ public class JAXBUtil {
         InputStream stream = new ByteArrayInputStream(s.getBytes(StandardCharsets.UTF_8.name()));
         return JAXBUtil.fromXML(tClass, stream);
     }
-
 }
 
