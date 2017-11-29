@@ -8,8 +8,8 @@
 mvn clean package
 
 ### Futtatási előkövetelmény:
-A basex adatbázis kezelő rendszert el kell indítani: (startmenüben basex server (start)-re kell keresni).
-Ahhoz, hogy létrejöjjön a rendacardb adatbázis ki kell kommentezni a RentACarMain.java, initDB(); sorát.
+1. A basex adatbázis kezelő rendszert el kell indítani: (startmenüben basex server (start)-re kell keresni).
+2. Ahhoz, hogy létrejöjjön a rendacardb adatbázis ki kell kommentezni a RentACarMain.java, initDB(); sorát.
 
 ### Futtatás:
 java -jar target/RentACar.jar
