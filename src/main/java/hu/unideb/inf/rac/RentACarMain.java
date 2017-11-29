@@ -13,6 +13,7 @@ public class RentACarMain extends Application {
 
     public static void main(String[] args) throws Exception {
         new Server(Protocol.HTTP, 8888, new RentACarMain()).start();
+        //initDB();
         //reinitDB();
     }
 
@@ -26,6 +27,11 @@ public class RentACarMain extends Application {
         router.attach("http://localhost:8888/salesBySite/{siteId}", SalesResourceImpl.class);
         router.attach("http://localhost:8888/add", StringResourceImpl.class);
         return router;
+    }
+
+    private static void initDB() throws Exception {
+        FirstBaseXDB firstBaseXDB = FirstBaseXDB.getInstance();
+        firstBaseXDB.createDb();
     }
 
     private static void reinitDB() throws Exception {
