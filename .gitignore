@@ -53,3 +53,4 @@ target/maven-archiver/pom.properties
 .idea/libraries/Maven__org_basex_basex_api_8_6_7.xml
 .idea/libraries/Maven__org_basex_basex_8_6_7.xml
 target/RentACar.jar
+target/

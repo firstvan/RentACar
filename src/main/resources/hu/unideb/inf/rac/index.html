@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fejlett XML technológiák</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Feladat</th>
+        <th scope="col">Eredmény</th>
+        <th scope="col">XQuery</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>Kérjük le az adatbázisban előforduló összes autót</td>
+        <td><a href="http://localhost:8888/cars">Megnyit</a></td>
+        <td><code>"xquery doc('rentacardb')/company/cars"</code></td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Listázzuk ki a 10-es idval rendelkező autót (URL paraméterezhető)</td>
+        <td><a href="http://localhost:8888/car/10">Megnyit</a></td>
+        <td><code>"xquery doc('rentacardb')/company/cars/car[@id=" + id + "]"</code></td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td>Listázzuk ki az 100001-es telepen lévő összes értékesítőt (URL paraméterezhető)</td>
+        <td><a href="http://localhost:8888/salesBySite/100001">Megnyit</a></td>
+        <td><code>"xquery element results { for $sp in doc('rentacardb')/company/sites/site[@id=" + id + "]/employee/salesperson/person/@idrefs
+            return doc('rentacardb')/company/persons/person[@id=$sp] }"</code></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

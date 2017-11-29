@@ -1,255 +1,450 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-      <xs:element name="company">
-            <xs:complexType>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="company">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sites">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="site" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
                   <xs:sequence>
-                        <xs:element ref="storages"/>
-                        <xs:element ref="persons"/>
-                        <xs:element ref="cars"/>
-                        <xs:element ref="rents"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="storages">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element maxOccurs="unbounded" ref="storage"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="persons">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element maxOccurs="unbounded" ref="person"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="cars">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element maxOccurs="unbounded" ref="car"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="rents">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element maxOccurs="unbounded" ref="rent"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="rent">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="id"/>
-                        <xs:element ref="storage"/>
-                        <xs:element ref="person"/>
-                        <xs:element ref="total"/>
-                        <xs:element ref="currency"/>
-                        <xs:element ref="from"/>
-                        <xs:element ref="to"/>
-                        <xs:element ref="distance"/>
-                        <xs:element ref="distanceUnit"/>
-                        <xs:element ref="car"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="id" type="xs:integer"/>
-      <xs:element name="total" type="xs:integer"/>
-      <xs:element name="from" type="xs:string"/>
-      <xs:element name="to" type="xs:string"/>
-      <xs:element name="distance" type="xs:integer"/>
-      <xs:element name="distanceUnit" type="xs:NCName"/>
-      <xs:element name="storage">
-            <xs:complexType>
-                  <xs:sequence minOccurs="0">
-                        <xs:element ref="address"/>
-                        <xs:element ref="employee"/>
-                        <xs:element ref="rentableCars"/>
-                  </xs:sequence>
-                  <xs:attribute name="id" type="xs:integer"/>
-                  <xs:attribute name="idrefs" type="xs:integer"/>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="employee">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="manager"/>
-                        <xs:element ref="salesperson"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="manager">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="person"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="salesperson">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element maxOccurs="unbounded" ref="person"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="rentableCars">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="hatchbacks"/>
-                        <xs:element ref="familycars"/>
-                        <xs:element ref="vans"/>
-                        <xs:element ref="suvs"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="hatchbacks">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="petrol"/>
-                        <xs:element ref="diesel"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="familycars">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="petrol"/>
-                        <xs:element ref="diesel"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="vans">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="petrol"/>
-                        <xs:element ref="diesel"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="suvs">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="petrol"/>
-                        <xs:element ref="diesel"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="person">
-            <xs:complexType>
-                  <xs:sequence minOccurs="0">
-                        <xs:element ref="name"/>
-                        <xs:element ref="address"/>
-                        <xs:element ref="birth"/>
-                        <xs:element ref="driverLicense"/>
-                  </xs:sequence>
-                  <xs:attribute name="id" type="xs:integer"/>
-                  <xs:attribute name="idrefs" type="xs:integer"/>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="name" type="xs:string"/>
-      <xs:element name="birth" type="xs:string"/>
-      <xs:element name="driverLicense" type="xs:NCName"/>
-      <xs:element name="car">
-            <xs:complexType>
-                  <xs:sequence minOccurs="0">
-                        <xs:element ref="category"/>
-                        <xs:element ref="brand"/>
-                        <xs:element ref="type"/>
-                        <xs:element ref="engine"/>
-                        <xs:element ref="color"/>
-                        <xs:element ref="fuel"/>
-                        <xs:element ref="mfd"/>
-                        <xs:element ref="licensePlateNumber"/>
-                  </xs:sequence>
-                  <xs:attribute name="id" type="xs:integer"/>
-                  <xs:attribute name="idrefs" type="xs:integer"/>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="category" type="xs:NCName"/>
-      <xs:element name="brand" type="xs:string"/>
-      <xs:element name="type" type="xs:string"/>
-      <xs:element name="engine" type="xs:decimal"/>
-      <xs:element name="color" type="xs:NCName"/>
-      <xs:element name="fuel" type="xs:NCName"/>
-      <xs:element name="mfd" type="xs:integer"/>
-      <xs:element name="licensePlateNumber" type="xs:NCName"/>
-      <xs:element name="currency" type="xs:NCName"/>
-      <xs:element name="address">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="postalCode"/>
-                        <xs:element ref="city"/>
-                        <xs:element ref="location"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="postalCode" type="xs:string"/>
-      <xs:element name="city" type="xs:string"/>
-      <xs:element name="location">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="street"/>
-                        <xs:element ref="number"/>
-                        <xs:sequence minOccurs="0">
-                              <xs:element ref="floor"/>
-                              <xs:element ref="apartment"/>
+                    <xs:element name="address">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:short" name="postalCode"/>
+                          <xs:element type="xs:string" name="city"/>
+                          <xs:element name="location">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="street"/>
+                                <xs:element type="xs:byte" name="number"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
                         </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="employee">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="manager">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="person">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:short" name="idrefs" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="salesperson">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="person" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:short" name="idrefs" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="rentableCars">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="hatchbacks">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="petrol">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="fees">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:short" name="dalyFee"/>
+                                            <xs:element type="xs:byte" name="distanceFee"/>
+                                            <xs:element type="xs:string" name="currency"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="vehicles">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:byte" name="idrefs" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="diesel">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="fees">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:short" name="dalyFee"/>
+                                            <xs:element type="xs:short" name="distanceFee"/>
+                                            <xs:element type="xs:string" name="currency"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="vehicles">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:byte" name="idrefs" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="familycars">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="petrol">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="fees">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:short" name="dalyFee"/>
+                                            <xs:element type="xs:short" name="distanceFee"/>
+                                            <xs:element type="xs:string" name="currency"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="vehicles">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:byte" name="idrefs" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="diesel">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="fees">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:short" name="dalyFee"/>
+                                            <xs:element type="xs:short" name="distanceFee"/>
+                                            <xs:element type="xs:string" name="currency"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="vehicles">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:byte" name="idrefs" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="vans">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="petrol">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="fees">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:short" name="dalyFee"/>
+                                            <xs:element type="xs:short" name="distanceFee"/>
+                                            <xs:element type="xs:string" name="currency"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="vehicles">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:byte" name="idrefs" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="diesel">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="fees">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:short" name="dalyFee"/>
+                                            <xs:element type="xs:short" name="distanceFee"/>
+                                            <xs:element type="xs:string" name="currency"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="vehicles">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:byte" name="idrefs" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="suvs">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="petrol">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="fees">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:short" name="dalyFee"/>
+                                            <xs:element type="xs:short" name="distanceFee"/>
+                                            <xs:element type="xs:string" name="currency"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="vehicles">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:byte" name="idrefs" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="diesel">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="fees">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element type="xs:short" name="dalyFee"/>
+                                            <xs:element type="xs:short" name="distanceFee"/>
+                                            <xs:element type="xs:string" name="currency"/>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                      <xs:element name="vehicles">
+                                        <xs:complexType>
+                                          <xs:sequence>
+                                            <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                                              <xs:complexType>
+                                                <xs:simpleContent>
+                                                  <xs:extension base="xs:string">
+                                                    <xs:attribute type="xs:byte" name="idrefs" use="optional"/>
+                                                  </xs:extension>
+                                                </xs:simpleContent>
+                                              </xs:complexType>
+                                            </xs:element>
+                                          </xs:sequence>
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="rents">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="rent" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:int" name="id"/>
+                                <xs:element name="person">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:short" name="idrefs" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element type="xs:int" name="total"/>
+                                <xs:element type="xs:string" name="currency"/>
+                                <xs:element type="xs:string" name="from"/>
+                                <xs:element type="xs:string" name="to"/>
+                                <xs:element type="xs:short" name="distance"/>
+                                <xs:element type="xs:string" name="distanceUnit"/>
+                                <xs:element name="car">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:string">
+                                        <xs:attribute type="xs:byte" name="idrefs" use="optional"/>
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
                   </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="street" type="xs:NMTOKEN"/>
-      <xs:element name="number" type="xs:integer"/>
-      <xs:element name="floor" type="xs:string"/>
-      <xs:element name="apartment" type="xs:string"/>
-      <xs:element name="petrol">
-            <xs:complexType>
+                  <xs:attribute type="xs:int" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="persons">
+          <xs:annotation>
+            <xs:documentation>employee: 1001-1010
+         user: 1011-1030</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="person" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
                   <xs:sequence>
-                        <xs:element ref="lowerthan16"/>
-                        <xs:element ref="greaterthen16"/>
+                    <xs:element type="xs:string" name="name"/>
+                    <xs:element name="address">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="postalCode"/>
+                          <xs:element type="xs:string" name="city"/>
+                          <xs:element name="location">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="street"/>
+                                <xs:element type="xs:int" name="number"/>
+                                <xs:element type="xs:string" name="floor"/>
+                                <xs:element type="xs:string" name="apartment"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element type="xs:string" name="birth"/>
+                    <xs:element type="xs:string" name="driverLicense"/>
                   </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="diesel">
-            <xs:complexType>
+                  <xs:attribute type="xs:short" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="cars">
+          <xs:annotation>
+            <xs:documentation>hatchback: 1-25
+        familycar: 26-50
+        van: 51-75
+        SUV: 76-100</xs:documentation>
+          </xs:annotation>
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="car" maxOccurs="unbounded" minOccurs="0">
+                <xs:complexType>
                   <xs:sequence>
-                        <xs:element ref="lowerthan16"/>
-                        <xs:element ref="greaterthen16"/>
+                    <xs:element type="xs:string" name="category"/>
+                    <xs:element type="xs:string" name="brand"/>
+                    <xs:element type="xs:string" name="type"/>
+                    <xs:element type="xs:float" name="engine"/>
+                    <xs:element type="xs:string" name="color"/>
+                    <xs:element type="xs:string" name="fuel"/>
+                    <xs:element type="xs:short" name="mfd"/>
+                    <xs:element type="xs:string" name="licensePlateNumber"/>
+                    <xs:element type="xs:string" name="climated"/>
+                    <xs:element type="xs:string" name="transmission"/>
+                    <xs:element type="xs:byte" name="seatingCapacity"/>
                   </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="lowerthan16">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="fees"/>
-                        <xs:element ref="vehicles"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="greaterthen16">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="fees"/>
-                        <xs:element ref="vehicles"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="fees">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element ref="dalyFee"/>
-                        <xs:element ref="distanceFee"/>
-                        <xs:element ref="currency"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
-      <xs:element name="dalyFee" type="xs:integer"/>
-      <xs:element name="distanceFee" type="xs:integer"/>
-      <xs:element name="vehicles">
-            <xs:complexType>
-                  <xs:sequence>
-                        <xs:element maxOccurs="unbounded" ref="car"/>
-                  </xs:sequence>
-            </xs:complexType>
-      </xs:element>
+                  <xs:attribute type="xs:byte" name="id" use="optional"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 </xs:schema>
+

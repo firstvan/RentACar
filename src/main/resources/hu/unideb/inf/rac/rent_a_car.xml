@@ -1,251 +1,331 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <company>
-    <storages>
-        <storage id="100001">
-    		<address>
-    			<postalCode>1032</postalCode>
-    			<city>Budapest</city>
-    			<location>
-    				<street>Kisteleki</street>
-    				<number>10</number>
-    			</location>
-    		</address>
-    
-    		<employee>
-    		    <manager>
-    		        <person idrefs="1001"/>
-    		    </manager>
-    		    <salesperson>
-    		        <person idrefs="1002"/>
-    		        <person idrefs="1003"/>
-    		        <person idrefs="1004"/>
-    		        <person idrefs="1005"/>
-    		    </salesperson>
-    		</employee>
-    		
-    		<rentableCars>
-    		    <hatchbacks>
-    		        <petrol>
-    		            <lowerthan16>
-    		                <fees>
-    		                    <dalyFee>1000</dalyFee>
-    		                    <distanceFee>100</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-    		                    <car idrefs="2" />
-    		                    <car idrefs="4" />
-    		                    <car idrefs="5" />
-    		                </vehicles>
-    		            </lowerthan16>
-    		            <greaterthen16>
-    		                <fees>
-    		                    <dalyFee>1235</dalyFee>
-    		                    <distanceFee>150</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-            	                <car idrefs="1" />
-            	                <car idrefs="7" />
-            	                <car idrefs="11" />
-    		                </vehicles>
-    		            </greaterthen16>
-    		        </petrol>
-    		        <diesel>
-    		            <lowerthan16>
-    		                <fees>
-    		                    <dalyFee>1100</dalyFee>
-    		                    <distanceFee>130</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-          		                <car idrefs="3" />
-          		                <car idrefs="10" />
-          		                <car idrefs="12" />
-    		                </vehicles>
-    		            </lowerthan16>
-    		            <greaterthen16>
-    		                <fees>
-    		                    <dalyFee>1400</dalyFee>
-    		                    <distanceFee>160</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-          		                <car idrefs="6" />
-          		                <car idrefs="8" />
-          		                <car idrefs="9" />
-    		                </vehicles>
-    		            </greaterthen16>
-    		        </diesel>
-    		    </hatchbacks>
-    		    
-    		    <familycars>
-    		        <petrol>
-    		            <lowerthan16>
-    		                <fees>
-    		                    <dalyFee>1200</dalyFee>
-    		                    <distanceFee>150</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-        		                <car idrefs="33" />
-        		                <car idrefs="34" />
-        		                <car idrefs="35" />
-    		                </vehicles>
-    		            </lowerthan16>
-    		            <greaterthen16>
-    		                <fees>
-    		                    <dalyFee>1300</dalyFee>
-    		                    <distanceFee>155</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-        		                <car idrefs="27" />
-        		                <car idrefs="29" />
-        		                <car idrefs="31" />
-    		                </vehicles>
-    		            </greaterthen16>
-    		        </petrol>
-    		        <diesel>
-    		            <lowerthan16>
-    		                <fees>
-    		                    <dalyFee>1400</dalyFee>
-    		                    <distanceFee>130</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-        		                <car idrefs="32" />
-        		                <car idrefs="33" />
-        		                <car idrefs="37" />
-    		                </vehicles>
-    		            </lowerthan16>
-    		            <greaterthen16>
-    		                <fees>
-    		                    <dalyFee>1500</dalyFee>
-    		                    <distanceFee>150</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-          		                <car idrefs="26" />
-          		                <car idrefs="28" />
-          		                <car idrefs="30" />
-    		                </vehicles>
-    		            </greaterthen16>
-    		        </diesel>
-    		    </familycars>
-    		    
-    		    <vans>
-    		        <petrol>
-    		            <lowerthan16>
-    		                <fees>
-    		                    <dalyFee>1235</dalyFee>
-    		                    <distanceFee>160</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-          		                <car idrefs="51" />
-          		                <car idrefs="59" />
-          		                <car idrefs="60" />
-    		                </vehicles>
-    		            </lowerthan16>
-    		            <greaterthen16>
-    		                <fees>
-    		                    <dalyFee>1500</dalyFee>
-    		                    <distanceFee>170</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-           		                <car idrefs="52" />
-           		                <car idrefs="55" />
-           		                <car idrefs="57" />
-    		                </vehicles>
-    		            </greaterthen16>
-    		        </petrol>
-    		        <diesel>
-    		            <lowerthan16>
-    		                <fees>
-    		                    <dalyFee>1400</dalyFee>
-    		                    <distanceFee>145</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-           		                <car idrefs="54" />
-           		                <car idrefs="56" />
-           		                <car idrefs="31" />
-    		                </vehicles>
-    		            </lowerthan16>
-    		            <greaterthen16>
-    		                <fees>
-    		                    <dalyFee>1700</dalyFee>
-    		                    <distanceFee>110</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-           		                <car idrefs="53" />
-           		                <car idrefs="58" />
-           		                <car idrefs="62" />
-    		                </vehicles>
-    		            </greaterthen16>
-    		        </diesel>
-    		    </vans>
-    		    
-    		    <suvs>
-    		        <petrol>
-    		            <lowerthan16>
-    		                <fees>
-    		                    <dalyFee>1600</dalyFee>
-    		                    <distanceFee>150</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-           		                <car idrefs="76" />
-           		                <car idrefs="79" />
-           		                <car idrefs="80" />
-    		                </vehicles>
-    		            </lowerthan16>
-    		            <greaterthen16>
-    		                <fees>
-    		                    <dalyFee>1800</dalyFee>
-    		                    <distanceFee>200</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-           		                <car idrefs="77" />
-           		                <car idrefs="83" />
-           		                <car idrefs="86" />
-    		                </vehicles>
-    		            </greaterthen16>
-    		        </petrol>
-    		        <diesel>
-    		            <lowerthan16>
-    		                <fees>
-    		                    <dalyFee>2000</dalyFee>
-    		                    <distanceFee>220</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-           		                <car idrefs="78" />
-           		                <car idrefs="82" />
-           		                <car idrefs="85" />
-    		                </vehicles>
-    		            </lowerthan16>
-    		            <greaterthen16>
-    		                <fees>
-    		                    <dalyFee>3000</dalyFee>
-    		                    <distanceFee>150</distanceFee>
-    		                    <currency>HUF</currency>
-    		                </fees>
-    		                <vehicles>
-               	                <car idrefs="81" />
-               	                <car idrefs="84" />
-               	                <car idrefs="87" />
-    		                </vehicles>
-    		            </greaterthen16>
-    		        </diesel>
-    		    </suvs>
-    		</rentableCars>
-        </storage>
-        <storage id="100002">
+    <sites>
+        <site id="100001">
+            <address>
+                <postalCode>1032</postalCode>
+                <city>Budapest</city>
+                <location>
+                    <street>Kisteleki</street>
+                    <number>10</number>
+                </location>
+            </address>
+
+            <employee>
+                <manager>
+                    <person idrefs="1001"/>
+                </manager>
+                <salesperson>
+                    <person idrefs="1002"/>
+                    <person idrefs="1003"/>
+                    <person idrefs="1004"/>
+                    <person idrefs="1005"/>
+                </salesperson>
+            </employee>
+
+            <rentableCars>
+                <hatchbacks>
+                    <petrol>
+                        <fees>
+                            <dalyFee>1000</dalyFee>
+                            <distanceFee>100</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="2"/>
+                            <car idrefs="4"/>
+                            <car idrefs="5"/>
+                            <car idrefs="1"/>
+                            <car idrefs="7"/>
+                            <car idrefs="11"/>
+                        </vehicles>
+                    </petrol>
+                    <diesel>
+                        <fees>
+                            <dalyFee>1100</dalyFee>
+                            <distanceFee>130</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="3"/>
+                            <car idrefs="10"/>
+                            <car idrefs="12"/>
+                            <car idrefs="6"/>
+                            <car idrefs="8"/>
+                            <car idrefs="9"/>
+                        </vehicles>
+                    </diesel>
+                </hatchbacks>
+
+                <familycars>
+                    <petrol>
+                        <fees>
+                            <dalyFee>1200</dalyFee>
+                            <distanceFee>150</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="33"/>
+                            <car idrefs="34"/>
+                            <car idrefs="35"/>
+                            <car idrefs="27"/>
+                            <car idrefs="29"/>
+                            <car idrefs="31"/>
+                        </vehicles>
+                    </petrol>
+                    <diesel>
+                        <fees>
+                            <dalyFee>1400</dalyFee>
+                            <distanceFee>130</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="32"/>
+                            <car idrefs="33"/>
+                            <car idrefs="37"/>
+                            <car idrefs="26"/>
+                            <car idrefs="28"/>
+                            <car idrefs="30"/>
+                        </vehicles>
+                    </diesel>
+                </familycars>
+
+                <vans>
+                    <petrol>
+                        <fees>
+                            <dalyFee>1235</dalyFee>
+                            <distanceFee>160</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="51"/>
+                            <car idrefs="59"/>
+                            <car idrefs="60"/>
+                            <car idrefs="52"/>
+                            <car idrefs="55"/>
+                            <car idrefs="57"/>
+                        </vehicles>
+                    </petrol>
+                    <diesel>
+                        <fees>
+                            <dalyFee>1400</dalyFee>
+                            <distanceFee>145</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="54"/>
+                            <car idrefs="56"/>
+                            <car idrefs="31"/>
+                            <car idrefs="53"/>
+                            <car idrefs="58"/>
+                            <car idrefs="62"/>
+                        </vehicles>
+                    </diesel>
+                </vans>
+
+                <suvs>
+                    <petrol>
+                        <fees>
+                            <dalyFee>1600</dalyFee>
+                            <distanceFee>150</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="76"/>
+                            <car idrefs="79"/>
+                            <car idrefs="80"/>
+                            <car idrefs="77"/>
+                            <car idrefs="83"/>
+                            <car idrefs="86"/>
+                        </vehicles>
+                    </petrol>
+                    <diesel>
+                        <fees>
+                            <dalyFee>2000</dalyFee>
+                            <distanceFee>220</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="78"/>
+                            <car idrefs="82"/>
+                            <car idrefs="85"/>
+                            <car idrefs="81"/>
+                            <car idrefs="84"/>
+                            <car idrefs="87"/>
+                        </vehicles>
+                    </diesel>
+                </suvs>
+            </rentableCars>
+
+            <rents>
+                <rent>
+                    <id>1000001</id>
+                    <person idrefs="1027"/>
+                    <total>162377</total>
+                    <currency>HUF</currency>
+                    <from>2016/12/05</from>
+                    <to>2017/11/06</to>
+                    <distance>215</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="12"/>
+                </rent>
+                <rent>
+                    <id>1000003</id>
+                    <person idrefs="1021"/>
+                    <total>91196</total>
+                    <currency>HUF</currency>
+                    <from>2017/01/20</from>
+                    <to>2017/10/23</to>
+                    <distance>360</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="28"/>
+                </rent>
+                <rent>
+                    <id>1000004</id>
+                    <person idrefs="1026"/>
+                    <total>68312</total>
+                    <currency>HUF</currency>
+                    <from>2017/04/13</from>
+                    <to>2017/08/09</to>
+                    <distance>443</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="56"/>
+                </rent>
+                <rent>
+                    <id>1000005</id>
+                    <person idrefs="1016"/>
+                    <total>46092</total>
+                    <currency>HUF</currency>
+                    <from>2017/03/09</from>
+                    <to>2017/08/16</to>
+                    <distance>314</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="10"/>
+                </rent>
+                <rent>
+                    <id>1000007</id>
+                    <person idrefs="1020"/>
+                    <total>155092</total>
+                    <currency>HUF</currency>
+                    <from>2017/01/01</from>
+                    <to>2017/10/24</to>
+                    <distance>133</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="53"/>
+                </rent>
+                <rent>
+                    <id>1000008</id>
+                    <person idrefs="1024"/>
+                    <total>65993</total>
+                    <currency>HUF</currency>
+                    <from>2017/02/18</from>
+                    <to>2017/11/15</to>
+                    <distance>408</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="82"/>
+                </rent>
+                <rent>
+                    <id>1000009</id>
+                    <person idrefs="1015"/>
+                    <total>30464</total>
+                    <currency>HUF</currency>
+                    <from>2016/12/10</from>
+                    <to>2017/08/28</to>
+                    <distance>408</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="59"/>
+                </rent>
+                <rent>
+                    <id>1000011</id>
+                    <person idrefs="1018"/>
+                    <total>91955</total>
+                    <currency>HUF</currency>
+                    <from>2017/05/08</from>
+                    <to>2017/09/28</to>
+                    <distance>495</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="51"/>
+                </rent>
+                <rent>
+                    <id>1000012</id>
+                    <person idrefs="1019"/>
+                    <total>12463</total>
+                    <currency>HUF</currency>
+                    <from>2016/12/06</from>
+                    <to>2017/07/03</to>
+                    <distance>125</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="26"/>
+                </rent>
+                <rent>
+                    <id>1000014</id>
+                    <person idrefs="1020"/>
+                    <total>89563</total>
+                    <currency>HUF</currency>
+                    <from>2017/04/24</from>
+                    <to>2017/08/02</to>
+                    <distance>48</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="59"/>
+                </rent>
+                <rent>
+                    <id>1000016</id>
+                    <person idrefs="1013"/>
+                    <total>117127</total>
+                    <currency>HUF</currency>
+                    <from>2017/02/16</from>
+                    <to>2017/09/02</to>
+                    <distance>226</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="33"/>
+                </rent>
+                <rent>
+                    <id>1000019</id>
+                    <person idrefs="1025"/>
+                    <total>162096</total>
+                    <currency>HUF</currency>
+                    <from>2017/05/14</from>
+                    <to>2017/06/18</to>
+                    <distance>483</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="32"/>
+                </rent>
+                <rent>
+                    <id>1000021</id>
+                    <person idrefs="1028"/>
+                    <total>127992</total>
+                    <currency>HUF</currency>
+                    <from>2017/03/23</from>
+                    <to>2017/09/30</to>
+                    <distance>406</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="36"/>
+                </rent>
+                <rent>
+                    <id>1000023</id>
+                    <person idrefs="1012"/>
+                    <total>43128</total>
+                    <currency>HUF</currency>
+                    <from>2016/12/16</from>
+                    <to>2017/10/12</to>
+                    <distance>36</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="35"/>
+                </rent>
+                <rent>
+                    <id>1000030</id>
+                    <person idrefs="1018"/>
+                    <total>91136</total>
+                    <currency>HUF</currency>
+                    <from>2017/02/25</from>
+                    <to>2017/11/08</to>
+                    <distance>412</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="82"/>
+                </rent>
+            </rents>
+        </site>
+        <site id="100002">
             <address>
                 <postalCode>4032</postalCode>
                 <city>Debrecen</city>
@@ -254,7 +334,7 @@
                     <number>20</number>
                 </location>
             </address>
-            
+
             <employee>
                 <manager>
                     <person idrefs="1006"/>
@@ -266,238 +346,318 @@
                     <person idrefs="1010"/>
                 </salesperson>
             </employee>
-            
+
             <rentableCars>
                 <hatchbacks>
                     <petrol>
-                        <lowerthan16>
-                            <fees>
-                                <dalyFee>1200</dalyFee>
-                                <distanceFee>120</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="17" />
-                                 <car idrefs="20" />
-                                 <car idrefs="22" />
-                            </vehicles>
-                        </lowerthan16>
-                        <greaterthen16>
-                            <fees>
-                                <dalyFee>1300</dalyFee>
-                                <distanceFee>150</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                  <car idrefs="14" />
-                                  <car idrefs="15" />
-                                  <car idrefs="24" />
-                            </vehicles>
-                        </greaterthen16>
+                        <fees>
+                            <dalyFee>1200</dalyFee>
+                            <distanceFee>120</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="17"/>
+                            <car idrefs="20"/>
+                            <car idrefs="22"/>
+                            <car idrefs="14"/>
+                            <car idrefs="15"/>
+                            <car idrefs="24"/>
+                        </vehicles>
                     </petrol>
                     <diesel>
-                        <lowerthan16>
-                            <fees>
-                                <dalyFee>1400</dalyFee>
-                                <distanceFee>150</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="18" />
-                                 <car idrefs="19" />
-                                 <car idrefs="21" />
-                            </vehicles>
-                        </lowerthan16>
-                        <greaterthen16>
-                            <fees>
-                                <dalyFee>1500</dalyFee>
-                                <distanceFee>160</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="13" />
-                                 <car idrefs="16" />
-                                 <car idrefs="23" />
-                                 <car idrefs="25" />
-                            </vehicles>
-                        </greaterthen16>
+                        <fees>
+                            <dalyFee>1400</dalyFee>
+                            <distanceFee>150</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="18"/>
+                            <car idrefs="19"/>
+                            <car idrefs="21"/>
+                            <car idrefs="13"/>
+                            <car idrefs="16"/>
+                            <car idrefs="23"/>
+                            <car idrefs="25"/>
+                        </vehicles>
                     </diesel>
                 </hatchbacks>
-                
+
                 <familycars>
                     <petrol>
-                        <lowerthan16>
-                            <fees>
-                                <dalyFee>1235</dalyFee>
-                                <distanceFee>130</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="41" />
-                                 <car idrefs="46" />
-                                 <car idrefs="47" />
-                                 <car idrefs="50" />
-                            </vehicles>
-                        </lowerthan16>
-                        <greaterthen16>
-                            <fees>
-                                <dalyFee>1200</dalyFee>
-                                <distanceFee>170</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="40" />
-                                 <car idrefs="42" />
-                                 <car idrefs="43" />
-                            </vehicles>
-                        </greaterthen16>
+                        <fees>
+                            <dalyFee>1235</dalyFee>
+                            <distanceFee>130</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="41"/>
+                            <car idrefs="46"/>
+                            <car idrefs="47"/>
+                            <car idrefs="50"/>
+                            <car idrefs="40"/>
+                            <car idrefs="42"/>
+                            <car idrefs="43"/>
+                        </vehicles>
                     </petrol>
                     <diesel>
-                        <lowerthan16>
-                            <fees>
-                                <dalyFee>1500</dalyFee>
-                                <distanceFee>140</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="29" />
-                                 <car idrefs="45" />
-                                 <car idrefs="48" />
-                            </vehicles>
-                        </lowerthan16>
-                        <greaterthen16>
-                            <fees>
-                                <dalyFee>1600</dalyFee>
-                                <distanceFee>150</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="38" />
-                                 <car idrefs="44" />
-                                 <car idrefs="49" />
-                            </vehicles>
-                        </greaterthen16>
+                        <fees>
+                            <dalyFee>1500</dalyFee>
+                            <distanceFee>140</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="29"/>
+                            <car idrefs="45"/>
+                            <car idrefs="48"/>
+                            <car idrefs="38"/>
+                            <car idrefs="44"/>
+                            <car idrefs="49"/>
+                        </vehicles>
                     </diesel>
                 </familycars>
-                
+
                 <vans>
                     <petrol>
-                        <lowerthan16>
-                            <fees>
-                                <dalyFee>1700</dalyFee>
-                                <distanceFee>130</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="68" />
-                                 <car idrefs="70" />
-                                 <car idrefs="71" />
-                            </vehicles>
-                        </lowerthan16>
-                        <greaterthen16>
-                            <fees>
-                                <dalyFee>1800</dalyFee>
-                                <distanceFee>150</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="64" />
-                                 <car idrefs="66" />
-                                 <car idrefs="57" />
-                            </vehicles>
-                        </greaterthen16>
+                        <fees>
+                            <dalyFee>1700</dalyFee>
+                            <distanceFee>130</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="68"/>
+                            <car idrefs="70"/>
+                            <car idrefs="71"/>
+                            <car idrefs="64"/>
+                            <car idrefs="66"/>
+                            <car idrefs="57"/>
+                        </vehicles>
                     </petrol>
                     <diesel>
-                        <lowerthan16>
-                            <fees>
-                                <dalyFee>1800</dalyFee>
-                                <distanceFee>140</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="72" />
-                                 <car idrefs="73" />
-                                 <car idrefs="74" />
-                            </vehicles>
-                        </lowerthan16>
-                        <greaterthen16>
-                            <fees>
-                                <dalyFee>1900</dalyFee>
-                                <distanceFee>150</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="63" />
-                                 <car idrefs="65" />
-                                 <car idrefs="69" />
-                                 <car idrefs="75" />
-                            </vehicles>
-                        </greaterthen16>
+                        <fees>
+                            <dalyFee>1800</dalyFee>
+                            <distanceFee>140</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="72"/>
+                            <car idrefs="73"/>
+                            <car idrefs="74"/>
+                            <car idrefs="63"/>
+                            <car idrefs="65"/>
+                            <car idrefs="69"/>
+                            <car idrefs="75"/>
+                        </vehicles>
                     </diesel>
                 </vans>
-                
+
                 <suvs>
                     <petrol>
-                        <lowerthan16>
-                            <fees>
-                                <dalyFee>2100</dalyFee>
-                                <distanceFee>150</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="92" />
-                                 <car idrefs="93" />
-                                 <car idrefs="97" />
-                            </vehicles>
-                        </lowerthan16>
-                        <greaterthen16>
-                            <fees>
-                                <dalyFee>2200</dalyFee>
-                                <distanceFee>170</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                 <car idrefs="88" />
-                                 <car idrefs="90" />
-                                 <car idrefs="95" />
-                            </vehicles>
-                        </greaterthen16>
+                        <fees>
+                            <dalyFee>2100</dalyFee>
+                            <distanceFee>150</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="92"/>
+                            <car idrefs="93"/>
+                            <car idrefs="97"/>
+                            <car idrefs="88"/>
+                            <car idrefs="90"/>
+                            <car idrefs="95"/>
+                        </vehicles>
                     </petrol>
                     <diesel>
-                        <lowerthan16>
-                            <fees>
-                                <dalyFee>2500</dalyFee>
-                                <distanceFee>150</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                <car idrefs="91" />
-                                <car idrefs="98" />
-                                <car idrefs="99" />
-                                <car idrefs="100" />
-                            </vehicles>
-                        </lowerthan16>
-                        <greaterthen16>
-                            <fees>
-                                <dalyFee>3000</dalyFee>
-                                <distanceFee>150</distanceFee>
-                                <currency>HUF</currency>
-                            </fees>
-                            <vehicles>
-                                <car idrefs="89" />
-                                <car idrefs="94" />
-                                <car idrefs="96" />
-                            </vehicles>
-                        </greaterthen16>
+                        <fees>
+                            <dalyFee>2500</dalyFee>
+                            <distanceFee>150</distanceFee>
+                            <currency>HUF</currency>
+                        </fees>
+                        <vehicles>
+                            <car idrefs="91"/>
+                            <car idrefs="98"/>
+                            <car idrefs="99"/>
+                            <car idrefs="100"/>
+                            <car idrefs="89"/>
+                            <car idrefs="94"/>
+                            <car idrefs="96"/>
+                        </vehicles>
                     </diesel>
                 </suvs>
             </rentableCars>
-        </storage>
-    </storages>
-    
-	<!-- employee: 1001-1010
-	     user: 1011-1030 -->
-	<persons>
+
+            <rents>
+                <rent>
+                    <id>1000002</id>
+                    <person idrefs="1023"/>
+                    <total>23058</total>
+                    <currency>HUF</currency>
+                    <from>2017/04/28</from>
+                    <to>2017/07/21</to>
+                    <distance>54</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="68"/>
+                </rent>
+                <rent>
+                    <id>1000006</id>
+                    <person idrefs="1026"/>
+                    <total>47222</total>
+                    <currency>HUF</currency>
+                    <from>2017/02/25</from>
+                    <to>2017/08/15</to>
+                    <distance>253</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="41"/>
+                </rent>
+                <rent>
+                    <id>1000010</id>
+                    <person idrefs="1017"/>
+                    <total>136085</total>
+                    <currency>HUF</currency>
+                    <from>2017/05/02</from>
+                    <to>2017/09/28</to>
+                    <distance>306</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="95"/>
+                </rent>
+                <rent>
+                    <id>1000013</id>
+                    <person idrefs="1020"/>
+                    <total>25647</total>
+                    <currency>HUF</currency>
+                    <from>2017/05/19</from>
+                    <to>2017/11/29</to>
+                    <distance>39</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="39"/>
+                </rent>
+                <rent>
+                    <id>1000015</id>
+                    <person idrefs="1012"/>
+                    <total>156112</total>
+                    <currency>HUF</currency>
+                    <from>2017/01/07</from>
+                    <to>2017/11/13</to>
+                    <distance>253</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="24"/>
+                </rent>
+                <rent>
+                    <id>1000017</id>
+                    <person idrefs="1016"/>
+                    <total>134517</total>
+                    <currency>HUF</currency>
+                    <from>2017/04/11</from>
+                    <to>2017/06/25</to>
+                    <distance>72</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="14"/>
+                </rent>
+                <rent>
+                    <id>1000018</id>
+                    <person idrefs="1018"/>
+                    <total>80191</total>
+                    <currency>HUF</currency>
+                    <from>2017/06/10</from>
+                    <to>2017/07/01</to>
+                    <distance>293</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="66"/>
+                </rent>
+                <rent>
+                    <id>1000020</id>
+                    <person idrefs="1023"/>
+                    <total>50749</total>
+                    <currency>HUF</currency>
+                    <from>2017/05/15</from>
+                    <to>2017/07/27</to>
+                    <distance>89</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="48"/>
+                </rent>
+                <rent>
+                    <id>1000022</id>
+                    <person idrefs="1022"/>
+                    <total>40917</total>
+                    <currency>HUF</currency>
+                    <from>2017/03/19</from>
+                    <to>2017/06/18</to>
+                    <distance>412</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="95"/>
+                </rent>
+                <rent>
+                    <id>1000024</id>
+                    <person idrefs="1012"/>
+                    <total>39945</total>
+                    <currency>HUF</currency>
+                    <from>2017/05/01</from>
+                    <to>2017/11/28</to>
+                    <distance>388</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="88"/>
+                </rent>
+                <rent>
+                    <id>1000025</id>
+                    <person idrefs="1016"/>
+                    <total>120952</total>
+                    <currency>HUF</currency>
+                    <from>2017/04/30</from>
+                    <to>2017/11/15</to>
+                    <distance>392</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="18"/>
+                </rent>
+                <rent>
+                    <id>1000026</id>
+                    <person idrefs="1019"/>
+                    <total>70810</total>
+                    <currency>HUF</currency>
+                    <from>2017/05/10</from>
+                    <to>2017/06/21</to>
+                    <distance>77</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="38"/>
+                </rent>
+                <rent>
+                    <id>1000027</id>
+                    <person idrefs="1023"/>
+                    <total>121003</total>
+                    <currency>HUF</currency>
+                    <from>2017/02/07</from>
+                    <to>2017/11/09</to>
+                    <distance>391</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="65"/>
+                </rent>
+                <rent>
+                    <id>1000028</id>
+                    <person idrefs="1022"/>
+                    <total>48996</total>
+                    <currency>HUF</currency>
+                    <from>2017/05/31</from>
+                    <to>2017/06/20</to>
+                    <distance>37</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="39"/>
+                </rent>
+                <rent>
+                    <id>1000029</id>
+                    <person idrefs="1026"/>
+                    <total>100253</total>
+                    <currency>HUF</currency>
+                    <from>2016/12/31</from>
+                    <to>2017/07/12</to>
+                    <distance>406</distance>
+                    <distanceUnit>Metric</distanceUnit>
+                    <car idrefs="46"/>
+                </rent>
+            </rents>
+        </site>
+    </sites>
+
+    <!-- employee: 1001-1010
+         user: 1011-1030 -->
+    <persons>
         <person id="1001">
             <name>Marguerite Galway</name>
             <address>
@@ -949,1375 +1109,1312 @@
             <driverLicense>IM386440</driverLicense>
         </person>
     </persons>
-	
-	<!--hatchback: 1-25
-	    familycar: 26-50
-	    van: 51-75
-	    SUV: 76-100 -->
-	<cars>
-   	    <car id="1">
-   	       <category>hatchback</category>
-           <brand>Buick</brand>
-           <type>Roadmaster</type>
-           <engine>1.8</engine>
-           <color>Pink</color>
-           <fuel>patrol</fuel>
-           <mfd>1991</mfd>
-           <licensePlateNumber>NNC-088</licensePlateNumber>
-       </car>
-       <car id="2">
-           <category>hatchback</category>
-           <brand>Aptera</brand>
-           <type>Typ-1</type>
-           <engine>1.5</engine>
-           <color>Aquamarine</color>
-           <fuel>patrol</fuel>
-           <mfd>2009</mfd>
-           <licensePlateNumber>DFF-117</licensePlateNumber>
-       </car>
-       <car id="3">
-           <category>hatchback</category>
-           <brand>Ford</brand>
-           <type>Explorer Sport</type>
-           <engine>1.2</engine>
-           <color>Goldenrod</color>
-           <fuel>diesel</fuel>
-           <mfd>2002</mfd>
-           <licensePlateNumber>DQC-645</licensePlateNumber>
-       </car>
-       <car id="4">
-           <category>hatchback</category>
-           <brand>Mercedes-Benz</brand>
-           <type>SLK-Class</type>
-           <engine>1.3</engine>
-           <color>Maroon</color>
-           <fuel>patrol</fuel>
-           <mfd>2006</mfd>
-           <licensePlateNumber>OKO-518</licensePlateNumber>
-       </car>
-       <car id="5">
-           <category>hatchback</category>
-           <brand>Toyota</brand>
-           <type>Corolla</type>
-           <engine>1.1</engine>
-           <color>Aquamarine</color>
-           <fuel>patrol</fuel>
-           <mfd>2001</mfd>
-           <licensePlateNumber>IQR-818</licensePlateNumber>
-       </car>
-       <car id="6">
-           <category>hatchback</category>
-           <brand>Ford</brand>
-           <type>LTD Crown Victoria</type>
-           <engine>1.9</engine>
-           <color>Orange</color>
-           <fuel>diesel</fuel>
-           <mfd>1984</mfd>
-           <licensePlateNumber>VJC-554</licensePlateNumber>
-       </car>
-       <car id="7">
-           <category>hatchback</category>
-           <brand>Oldsmobile</brand>
-           <type>Silhouette</type>
-           <engine>2.3</engine>
-           <color>Khaki</color>
-           <fuel>patrol</fuel>
-           <mfd>2003</mfd>
-           <licensePlateNumber>USQ-197</licensePlateNumber>
-       </car>
-       <car id="8">
-           <category>hatchback</category>
-           <brand>Toyota</brand>
-           <type>Avalon</type>
-           <engine>2.5</engine>
-           <color>Teal</color>
-           <fuel>diesel</fuel>
-           <mfd>2006</mfd>
-           <licensePlateNumber>RPU-913</licensePlateNumber>
-       </car>
-       <car id="9">
-           <category>hatchback</category>
-           <brand>Cadillac</brand>
-           <type>Seville</type>
-           <engine>3.0</engine>
-           <color>Purple</color>
-           <fuel>diesel</fuel>
-           <mfd>2003</mfd>
-           <licensePlateNumber>SWU-421</licensePlateNumber>
-       </car>
-       <car id="10">
-           <category>hatchback</category>
-           <brand>Toyota</brand>
-           <type>Avalon</type>
-           <engine>1.6</engine>
-           <color>Indigo</color>
-           <fuel>diesel</fuel>
-           <mfd>2007</mfd>
-           <licensePlateNumber>HNM-844</licensePlateNumber>
-       </car>
-       <car id="11">
-           <category>hatchback</category>
-           <brand>Mercury</brand>
-           <type>Mountaineer</type>
-           <engine>2.8</engine>
-           <color>Aquamarine</color>
-           <fuel>patrol</fuel>
-           <mfd>2006</mfd>
-           <licensePlateNumber>KMN-382</licensePlateNumber>
-       </car>
-       <car id="12">
-           <category>hatchback</category>
-           <brand>Mazda</brand>
-           <type>Mazda6</type>
-           <engine>1.0</engine>
-           <color>Violet</color>
-           <fuel>diesel</fuel>
-           <mfd>2003</mfd>
-           <licensePlateNumber>TVC-312</licensePlateNumber>
-       </car>
-       <car id="13">
-           <category>hatchback</category>
-           <brand>Audi</brand>
-           <type>A3</type>
-           <engine>2.8</engine>
-           <color>Fuscia</color>
-           <fuel>diesel</fuel>
-           <mfd>2011</mfd>
-           <licensePlateNumber>JKC-536</licensePlateNumber>
-       </car>
-       <car id="14">
-           <category>hatchback</category>
-           <brand>Lexus</brand>
-           <type>LS</type>
-           <engine>2.1</engine>
-           <color>Goldenrod</color>
-           <fuel>patrol</fuel>
-           <mfd>1989</mfd>
-           <licensePlateNumber>GJB-451</licensePlateNumber>
-       </car>
-       <car id="15">
-           <category>hatchback</category>
-           <brand>Lincoln</brand>
-           <type>Continental Mark VII</type>
-           <engine>2.3</engine>
-           <color>Pink</color>
-           <fuel>patrol</fuel>
-           <mfd>1985</mfd>
-           <licensePlateNumber>FBI-808</licensePlateNumber>
-       </car>
-       <car id="16">
-           <category>hatchback</category>
-           <brand>Toyota</brand>
-           <type>Prius</type>
-           <engine>2.6</engine>
-           <color>Green</color>
-           <fuel>diesel</fuel>
-           <mfd>2012</mfd>
-           <licensePlateNumber>BTG-650</licensePlateNumber>
-       </car>
-       <car id="17">
-           <category>hatchback</category>
-           <brand>Ford</brand>
-           <type>Mustang</type>
-           <engine>1.5</engine>
-           <color>Fuscia</color>
-           <fuel>patrol</fuel>
-           <mfd>1985</mfd>
-           <licensePlateNumber>GAS-385</licensePlateNumber>
-       </car>
-       <car id="18">
-           <category>hatchback</category>
-           <brand>Buick</brand>
-           <type>Rendezvous</type>
-           <engine>1.3</engine>
-           <color>Blue</color>
-           <fuel>diesel</fuel>
-           <mfd>2005</mfd>
-           <licensePlateNumber>TZQ-794</licensePlateNumber>
-       </car>
-       <car id="19">
-           <category>hatchback</category>
-           <brand>Nissan</brand>
-           <type>Sentra</type>
-           <engine>1.5</engine>
-           <color>Aquamarine</color>
-           <fuel>diesel</fuel>
-           <mfd>2010</mfd>
-           <licensePlateNumber>UOO-442</licensePlateNumber>
-       </car>
-       <car id="20">
-           <category>hatchback</category>
-           <brand>Mitsubishi</brand>
-           <type>Galant</type>
-           <engine>1.6</engine>
-           <color>Puce</color>
-           <fuel>patrol</fuel>
-           <mfd>2010</mfd>
-           <licensePlateNumber>YFX-418</licensePlateNumber>
-       </car>
-       <car id="21">
-           <category>hatchback</category>
-           <brand>Dodge</brand>
-           <type>D150</type>
-           <engine>1.4</engine>
-           <color>Orange</color>
-           <fuel>diesel</fuel>
-           <mfd>1992</mfd>
-           <licensePlateNumber>KCG-429</licensePlateNumber>
-       </car>
-       <car id="22">
-           <category>hatchback</category>
-           <brand>Mercedes-Benz</brand>
-           <type>SLR McLaren</type>
-           <engine>1.6</engine>
-           <color>Indigo</color>
-           <fuel>patrol</fuel>
-           <mfd>2007</mfd>
-           <licensePlateNumber>VCV-774</licensePlateNumber>
-       </car>
-       <car id="23">
-           <category>hatchback</category>
-           <brand>Mitsubishi</brand>
-           <type>Galant</type>
-           <engine>1.8</engine>
-           <color>Puce</color>
-           <fuel>diesel</fuel>
-           <mfd>1995</mfd>
-           <licensePlateNumber>XRC-354</licensePlateNumber>
-       </car>
-       <car id="24">
-           <category>hatchback</category>
-           <brand>BMW</brand>
-           <type>Z4</type>
-           <engine>2.1</engine>
-           <color>Indigo</color>
-           <fuel>patrol</fuel>
-           <mfd>2010</mfd>
-           <licensePlateNumber>WTF-565</licensePlateNumber>
-       </car>
-       <car id="25">
-           <category>hatchback</category>
-           <brand>Mercury</brand>
-           <type>Capri</type>
-           <engine>2.1</engine>
-           <color>Mauv</color>
-           <fuel>diesel</fuel>
-           <mfd>1992</mfd>
-           <licensePlateNumber>MMD-493</licensePlateNumber>
-       </car>
-       <car id="26">
-           <category>familycar</category>
-           <brand>Pontiac</brand>
-           <type>Bonneville</type>
-           <engine>2.3</engine>
-           <color>Green</color>
-           <fuel>diesel</fuel>
-           <mfd>1964</mfd>
-           <licensePlateNumber>GEY-101</licensePlateNumber>
-       </car>
-       <car id="27">
-           <category>familycar</category>
-           <brand>Audi</brand>
-           <type>TT</type>
-           <engine>2.6</engine>
-           <color>Blue</color>
-           <fuel>patrol</fuel>
-           <mfd>2010</mfd>
-           <licensePlateNumber>PVC-847</licensePlateNumber>
-       </car>
-       <car id="28">
-           <category>familycar</category>
-           <brand>Ford</brand>
-           <type>F-Series Super Duty</type>
-           <engine>2.6</engine>
-           <color>Khaki</color>
-           <fuel>diesel</fuel>
-           <mfd>2012</mfd>
-           <licensePlateNumber>YAC-183</licensePlateNumber>
-       </car>
-       <car id="29">
-           <category>familycar</category>
-           <brand>Aston Martin</brand>
-           <type>DBS</type>
-           <engine>2.0</engine>
-           <color>Mauv</color>
-           <fuel>patrol</fuel>
-           <mfd>2009</mfd>
-           <licensePlateNumber>TAE-420</licensePlateNumber>
-       </car>
-       <car id="30">
-           <category>familycar</category>
-           <brand>Mercedes-Benz</brand>
-           <type>300E</type>
-           <engine>2.0</engine>
-           <color>Fuscia</color>
-           <fuel>diesel</fuel>
-           <mfd>1993</mfd>
-           <licensePlateNumber>KRA-070</licensePlateNumber>
-       </car>
-       <car id="31">
-           <category>familycar</category>
-           <brand>Mazda</brand>
-           <type>626</type>
-           <engine>2.1</engine>
-           <color>Blue</color>
-           <fuel>patrol</fuel>
-           <mfd>1988</mfd>
-           <licensePlateNumber>NNV-386</licensePlateNumber>
-       </car>
-       <car id="32">
-           <category>familycar</category>
-           <brand>Buick</brand>
-           <type>LeSabre</type>
-           <engine>1.5</engine>
-           <color>Turquoise</color>
-           <fuel>diesel</fuel>
-           <mfd>1995</mfd>
-           <licensePlateNumber>YFW-541</licensePlateNumber>
-       </car>
-       <car id="33">
-           <category>familycar</category>
-           <brand>Aston Martin</brand>
-           <type>DB9</type>
-           <engine>1.2</engine>
-           <color>Mauv</color>
-           <fuel>patrol</fuel>
-           <mfd>2009</mfd>
-           <licensePlateNumber>YES-596</licensePlateNumber>
-       </car>
-       <car id="34">
-           <category>familycar</category>
-           <brand>Dodge</brand>
-           <type>Grand Caravan</type>
-           <engine>1.4</engine>
-           <color>Green</color>
-           <fuel>patrol</fuel>
-           <mfd>1992</mfd>
-           <licensePlateNumber>PSD-599</licensePlateNumber>
-       </car>
-       <car id="35">
-           <category>familycar</category>
-           <brand>Mercedes-Benz</brand>
-           <type>300SE</type>
-           <engine>1.0</engine>
-           <color>Violet</color>
-           <fuel>patrol</fuel>
-           <mfd>1993</mfd>
-           <licensePlateNumber>SOM-789</licensePlateNumber>
-       </car>
-       <car id="36">
-           <category>familycar</category>
-           <brand>Lotus</brand>
-           <type>Esprit</type>
-           <engine>1.1</engine>
-           <color>Mauv</color>
-           <fuel>diesel</fuel>
-           <mfd>2004</mfd>
-           <licensePlateNumber>RUO-863</licensePlateNumber>
-       </car>
-       <car id="37">
-           <category>familycar</category>
-           <brand>Dodge</brand>
-           <type>Shadow</type>
-           <engine>1.4</engine>
-           <color>Crimson</color>
-           <fuel>patrol</fuel>
-           <mfd>1993</mfd>
-           <licensePlateNumber>SAM-529</licensePlateNumber>
-       </car>
-       <car id="38">
-           <category>familycar</category>
-           <brand>Ford</brand>
-           <type>Expedition EL</type>
-           <engine>2.4</engine>
-           <color>Khaki</color>
-           <fuel>diesel</fuel>
-           <mfd>2010</mfd>
-           <licensePlateNumber>OLI-657</licensePlateNumber>
-       </car>
-       <car id="39">
-           <category>familycar</category>
-           <brand>Buick</brand>
-           <type>Regal</type>
-           <engine>1.2</engine>
-           <color>Crimson</color>
-           <fuel>diesel</fuel>
-           <mfd>1989</mfd>
-           <licensePlateNumber>ZLZ-687</licensePlateNumber>
-       </car>
-       <car id="40">
-           <category>familycar</category>
-           <brand>Chevrolet</brand>
-           <type>Sportvan G30</type>
-           <engine>2.1</engine>
-           <color>Indigo</color>
-           <fuel>patrol</fuel>
-           <mfd>1996</mfd>
-           <licensePlateNumber>NPE-663</licensePlateNumber>
-       </car>
-       <car id="41">
-           <category>familycar</category>
-           <brand>Mitsubishi</brand>
-           <type>Diamante</type>
-           <engine>1.1</engine>
-           <color>Teal</color>
-           <fuel>patrol</fuel>
-           <mfd>2002</mfd>
-           <licensePlateNumber>OAT-320</licensePlateNumber>
-       </car>
-       <car id="42">
-           <category>familycar</category>
-           <brand>Chevrolet</brand>
-           <type>Blazer</type>
-           <engine>2.5</engine>
-           <color>Orange</color>
-           <fuel>patrol</fuel>
-           <mfd>1993</mfd>
-           <licensePlateNumber>XSY-350</licensePlateNumber>
-       </car>
-       <car id="43">
-           <category>familycar</category>
-           <brand>Buick</brand>
-           <type>Century</type>
-           <engine>2.5</engine>
-           <color>Mauv</color>
-           <fuel>patrol</fuel>
-           <mfd>1984</mfd>
-           <licensePlateNumber>EGG-008</licensePlateNumber>
-       </car>
-       <car id="44">
-           <category>familycar</category>
-           <brand>Mitsubishi</brand>
-           <type>Lancer</type>
-           <engine>1.9</engine>
-           <color>Green</color>
-           <fuel>diesel</fuel>
-           <mfd>2003</mfd>
-           <licensePlateNumber>JKQ-164</licensePlateNumber>
-       </car>
-       <car id="45">
-           <category>familycar</category>
-           <brand>Mitsubishi</brand>
-           <type>Raider</type>
-           <engine>1.5</engine>
-           <color>Aquamarine</color>
-           <fuel>diesel</fuel>
-           <mfd>2006</mfd>
-           <licensePlateNumber>SVD-618</licensePlateNumber>
-       </car>
-       <car id="46">
-           <category>familycar</category>
-           <brand>Mercedes-Benz</brand>
-           <type>W201</type>
-           <engine>1.4</engine>
-           <color>Aquamarine</color>
-           <fuel>patrol</fuel>
-           <mfd>1985</mfd>
-           <licensePlateNumber>FHX-602</licensePlateNumber>
-       </car>
-       <car id="47">
-           <category>familycar</category>
-           <brand>Pontiac</brand>
-           <type>Firefly</type>
-           <engine>1.6</engine>
-           <color>Yellow</color>
-           <fuel>patrol</fuel>
-           <mfd>1984</mfd>
-           <licensePlateNumber>TUC-823</licensePlateNumber>
-       </car>
-       <car id="48">
-           <category>familycar</category>
-           <brand>Ford</brand>
-           <type>Thunderbird</type>
-           <engine>1.1</engine>
-           <color>Indigo</color>
-           <fuel>diesel</fuel>
-           <mfd>1985</mfd>
-           <licensePlateNumber>LJN-382</licensePlateNumber>
-       </car>
-       <car id="49">
-           <category>familycar</category>
-           <brand>Ford</brand>
-           <type>F350</type>
-           <engine>2.9</engine>
-           <color>Khaki</color>
-           <fuel>diesel</fuel>
-           <mfd>1997</mfd>
-           <licensePlateNumber>UVB-883</licensePlateNumber>
-       </car>
-       <car id="50">
-           <category>familycar</category>
-           <brand>Suzuki</brand>
-           <type>Swift</type>
-           <engine>1.0</engine>
-           <color>Red</color>
-           <fuel>patrol</fuel>
-           <mfd>1999</mfd>
-           <licensePlateNumber>WEI-753</licensePlateNumber>
-       </car>
-       <car id="51">
-           <category>VAN</category>
-           <brand>Ford</brand>
-           <type>Explorer Sport Trac</type>
-           <engine>1.5</engine>
-           <color>Purple</color>
-           <fuel>patrol</fuel>
-           <mfd>2001</mfd>
-           <licensePlateNumber>HBE-066</licensePlateNumber>
-       </car>
-       <car id="52">
-           <category>VAN</category>
-           <brand>Volkswagen</brand>
-           <type>Fox</type>
-           <engine>2.6</engine>
-           <color>Fuscia</color>
-           <fuel>patrol</fuel>
-           <mfd>1991</mfd>
-           <licensePlateNumber>IUV-009</licensePlateNumber>
-       </car>
-       <car id="53">
-           <category>VAN</category>
-           <brand>Lincoln</brand>
-           <type>Navigator</type>
-           <engine>1.7</engine>
-           <color>Maroon</color>
-           <fuel>diesel</fuel>
-           <mfd>2003</mfd>
-           <licensePlateNumber>SIC-263</licensePlateNumber>
-       </car>
-       <car id="54">
-           <category>VAN</category>
-           <brand>Ford</brand>
-           <type>F-250 Super Duty</type>
-           <engine>1.2</engine>
-           <color>Aquamarine</color>
-           <fuel>diesel</fuel>
-           <mfd>2006</mfd>
-           <licensePlateNumber>XJN-961</licensePlateNumber>
-       </car>
-       <car id="55">
-           <category>VAN</category>
-           <brand>Volkswagen</brand>
-           <type>Tiguan</type>
-           <engine>2.9</engine>
-           <color>Purple</color>
-           <fuel>patrol</fuel>
-           <mfd>2010</mfd>
-           <licensePlateNumber>JAJ-028</licensePlateNumber>
-       </car>
-       <car id="56">
-           <category>VAN</category>
-           <brand>Hyundai</brand>
-           <type>Accent</type>
-           <engine>1.5</engine>
-           <color>Maroon</color>
-           <fuel>diesel</fuel>
-           <mfd>1995</mfd>
-           <licensePlateNumber>CKX-370</licensePlateNumber>
-       </car>
-       <car id="57">
-           <category>VAN</category>
-           <brand>Saab</brand>
-           <type>9000</type>
-           <engine>2.1</engine>
-           <color>Mauv</color>
-           <fuel>patrol</fuel>
-           <mfd>1999</mfd>
-           <licensePlateNumber>JFD-849</licensePlateNumber>
-       </car>
-       <car id="58">
-           <category>VAN</category>
-           <brand>Dodge</brand>
-           <type>Intrepid</type>
-           <engine>2.7</engine>
-           <color>Goldenrod</color>
-           <fuel>diesel</fuel>
-           <mfd>1999</mfd>
-           <licensePlateNumber>YXV-048</licensePlateNumber>
-       </car>
-       <car id="59">
-           <category>VAN</category>
-           <brand>Honda</brand>
-           <type>CR-V</type>
-           <engine>1.1</engine>
-           <color>Khaki</color>
-           <fuel>patrol</fuel>
-           <mfd>2002</mfd>
-           <licensePlateNumber>JBB-262</licensePlateNumber>
-       </car>
-       <car id="60">
-           <category>VAN</category>
-           <brand>Cadillac</brand>
-           <type>DeVille</type>
-           <engine>1.2</engine>
-           <color>Red</color>
-           <fuel>patrol</fuel>
-           <mfd>2001</mfd>
-           <licensePlateNumber>GOR-309</licensePlateNumber>
-       </car>
-       <car id="61">
-           <category>VAN</category>
-           <brand>Mazda</brand>
-           <type>MPV</type>
-           <engine>1.6</engine>
-           <color>Khaki</color>
-           <fuel>diesel</fuel>
-           <mfd>1993</mfd>
-           <licensePlateNumber>BKJ-207</licensePlateNumber>
-       </car>
-       <car id="62">
-           <category>VAN</category>
-           <brand>Scion</brand>
-           <type>iQ</type>
-           <engine>2.6</engine>
-           <color>Aquamarine</color>
-           <fuel>diesel</fuel>
-           <mfd>2012</mfd>
-           <licensePlateNumber>JYG-900</licensePlateNumber>
-       </car>
-       <car id="63">
-           <category>VAN</category>
-           <brand>Ford</brand>
-           <type>Flex</type>
-           <engine>2.7</engine>
-           <color>Purple</color>
-           <fuel>diesel</fuel>
-           <mfd>2012</mfd>
-           <licensePlateNumber>SXQ-527</licensePlateNumber>
-       </car>
-       <car id="64">
-           <category>VAN</category>
-           <brand>Volkswagen</brand>
-           <type>Passat</type>
-           <engine>2.7</engine>
-           <color>Purple</color>
-           <fuel>patrol</fuel>
-           <mfd>1990</mfd>
-           <licensePlateNumber>IVP-602</licensePlateNumber>
-       </car>
-       <car id="65">
-           <category>VAN</category>
-           <brand>Dodge</brand>
-           <type>Avenger</type>
-           <engine>2.2</engine>
-           <color>Goldenrod</color>
-           <fuel>diesel</fuel>
-           <mfd>1997</mfd>
-           <licensePlateNumber>JTO-811</licensePlateNumber>
-       </car>
-       <car id="66">
-           <category>VAN</category>
-           <brand>Lotus</brand>
-           <type>Esprit</type>
-           <engine>2.3</engine>
-           <color>Crimson</color>
-           <fuel>patrol</fuel>
-           <mfd>1998</mfd>
-           <licensePlateNumber>VVG-006</licensePlateNumber>
-       </car>
-       <car id="67">
-           <category>VAN</category>
-           <brand>Pontiac</brand>
-           <type>Sunbird</type>
-           <engine>2.7</engine>
-           <color>Maroon</color>
-           <fuel>patrol</fuel>
-           <mfd>1987</mfd>
-           <licensePlateNumber>SLJ-555</licensePlateNumber>
-       </car>
-       <car id="68">
-           <category>VAN</category>
-           <brand>Jaguar</brand>
-           <type>XF</type>
-           <engine>1.0</engine>
-           <color>Puce</color>
-           <fuel>patrol</fuel>
-           <mfd>2011</mfd>
-           <licensePlateNumber>UJB-338</licensePlateNumber>
-       </car>
-       <car id="69">
-           <category>VAN</category>
-           <brand>Mitsubishi</brand>
-           <type>Lancer</type>
-           <engine>2.5</engine>
-           <color>Khaki</color>
-           <fuel>diesel</fuel>
-           <mfd>2011</mfd>
-           <licensePlateNumber>GBA-414</licensePlateNumber>
-       </car>
-       <car id="70">
-           <category>VAN</category>
-           <brand>Volvo</brand>
-           <type>S40</type>
-           <engine>1.6</engine>
-           <color>Purple</color>
-           <fuel>patrol</fuel>
-           <mfd>2006</mfd>
-           <licensePlateNumber>VHA-403</licensePlateNumber>
-       </car>
-       <car id="71">
-           <category>VAN</category>
-           <brand>Porsche</brand>
-           <type>Boxster</type>
-           <engine>1.6</engine>
-           <color>Maroon</color>
-           <fuel>patrol</fuel>
-           <mfd>1997</mfd>
-           <licensePlateNumber>PGP-314</licensePlateNumber>
-       </car>
-       <car id="72">
-           <category>VAN</category>
-           <brand>Nissan</brand>
-           <type>Maxima</type>
-           <engine>1.4</engine>
-           <color>Mauv</color>
-           <fuel>diesel</fuel>
-           <mfd>2004</mfd>
-           <licensePlateNumber>CNJ-531</licensePlateNumber>
-       </car>
-       <car id="73">
-           <category>VAN</category>
-           <brand>Lotus</brand>
-           <type>Exige</type>
-           <engine>1.4</engine>
-           <color>Fuscia</color>
-           <fuel>diesel</fuel>
-           <mfd>2009</mfd>
-           <licensePlateNumber>YQM-825</licensePlateNumber>
-       </car>
-       <car id="74">
-           <category>VAN</category>
-           <brand>Isuzu</brand>
-           <type>i-290</type>
-           <engine>1.6</engine>
-           <color>Aquamarine</color>
-           <fuel>diesel</fuel>
-           <mfd>2007</mfd>
-           <licensePlateNumber>KXJ-728</licensePlateNumber>
-       </car>
-       <car id="75">
-           <category>VAN</category>
-           <brand>Suzuki</brand>
-           <type>Kizashi</type>
-           <engine>2.7</engine>
-           <color>Aquamarine</color>
-           <fuel>diesel</fuel>
-           <mfd>2010</mfd>
-           <licensePlateNumber>UVU-690</licensePlateNumber>
-       </car>
-       <car id="76">
-           <category>SUV</category>
-           <brand>Ford</brand>
-           <type>Mustang</type>
-           <engine>1.4</engine>
-           <color>Green</color>
-           <fuel>patrol</fuel>
-           <mfd>2007</mfd>
-           <licensePlateNumber>MND-242</licensePlateNumber>
-       </car>
-       <car id="77">
-           <category>SUV</category>
-           <brand>Volvo</brand>
-           <type>XC60</type>
-           <engine>2.7</engine>
-           <color>Turquoise</color>
-           <fuel>patrol</fuel>
-           <mfd>2012</mfd>
-           <licensePlateNumber>FPT-037</licensePlateNumber>
-       </car>
-       <car id="78">
-           <category>SUV</category>
-           <brand>Buick</brand>
-           <type>Rendezvous</type>
-           <engine>1.3</engine>
-           <color>Red</color>
-           <fuel>diesel</fuel>
-           <mfd>2005</mfd>
-           <licensePlateNumber>CWW-705</licensePlateNumber>
-       </car>
-       <car id="79">
-           <category>SUV</category>
-           <brand>Volvo</brand>
-           <type>XC70</type>
-           <engine>1.5</engine>
-           <color>Green</color>
-           <fuel>patrol</fuel>
-           <mfd>2007</mfd>
-           <licensePlateNumber>YUM-564</licensePlateNumber>
-       </car>
-       <car id="80">
-           <category>SUV</category>
-           <brand>Honda</brand>
-           <type>Civic Si</type>
-           <engine>1.5</engine>
-           <color>Maroon</color>
-           <fuel>patrol</fuel>
-           <mfd>2005</mfd>
-           <licensePlateNumber>UYX-012</licensePlateNumber>
-       </car>
-       <car id="81">
-           <category>SUV</category>
-           <brand>Honda</brand>
-           <type>Accord</type>
-           <engine>2.0</engine>
-           <color>Maroon</color>
-           <fuel>diesel</fuel>
-           <mfd>1996</mfd>
-           <licensePlateNumber>YZP-949</licensePlateNumber>
-       </car>
-       <car id="82">
-           <category>SUV</category>
-           <brand>Subaru</brand>
-           <type>Legacy</type>
-           <engine>1.2</engine>
-           <color>Green</color>
-           <fuel>diesel</fuel>
-           <mfd>2012</mfd>
-           <licensePlateNumber>EUV-192</licensePlateNumber>
-       </car>
-       <car id="83">
-           <category>SUV</category>
-           <brand>Volkswagen</brand>
-           <type>Passat</type>
-           <engine>2.8</engine>
-           <color>Fuscia</color>
-           <fuel>patrol</fuel>
-           <mfd>1994</mfd>
-           <licensePlateNumber>TEM-278</licensePlateNumber>
-       </car>
-       <car id="84">
-           <category>SUV</category>
-           <brand>Lamborghini</brand>
-           <type>Gallardo</type>
-           <engine>2.4</engine>
-           <color>Fuscia</color>
-           <fuel>diesel</fuel>
-           <mfd>2011</mfd>
-           <licensePlateNumber>NVK-820</licensePlateNumber>
-       </car>
-       <car id="85">
-           <category>SUV</category>
-           <brand>Mitsubishi</brand>
-           <type>Pajero</type>
-           <engine>1.3</engine>
-           <color>Indigo</color>
-           <fuel>diesel</fuel>
-           <mfd>1999</mfd>
-           <licensePlateNumber>RTA-074</licensePlateNumber>
-       </car>
-       <car id="86">
-           <category>SUV</category>
-           <brand>Porsche</brand>
-           <type>911</type>
-           <engine>1.9</engine>
-           <color>Fuscia</color>
-           <fuel>patrol</fuel>
-           <mfd>2008</mfd>
-           <licensePlateNumber>ZDU-469</licensePlateNumber>
-       </car>
-       <car id="87">
-           <category>SUV</category>
-           <brand>Chevrolet</brand>
-           <type>Silverado</type>
-           <engine>1.9</engine>
-           <color>Red</color>
-           <fuel>diesel</fuel>
-           <mfd>2002</mfd>
-           <licensePlateNumber>GUV-243</licensePlateNumber>
-       </car>
-       <car id="88">
-           <category>SUV</category>
-           <brand>Chevrolet</brand>
-           <type>Impala</type>
-           <engine>2.5</engine>
-           <color>Fuscia</color>
-           <fuel>patrol</fuel>
-           <mfd>2010</mfd>
-           <licensePlateNumber>FMS-681</licensePlateNumber>
-       </car>
-       <car id="89">
-           <category>SUV</category>
-           <brand>GMC</brand>
-           <type>Sierra</type>
-           <engine>2.5</engine>
-           <color>Pink</color>
-           <fuel>diesel</fuel>
-           <mfd>2007</mfd>
-           <licensePlateNumber>WNQ-812</licensePlateNumber>
-       </car>
-       <car id="90">
-           <category>SUV</category>
-           <brand>Ford</brand>
-           <type>Ranger</type>
-           <engine>1.7</engine>
-           <color>Purple</color>
-           <fuel>patrol</fuel>
-           <mfd>1992</mfd>
-           <licensePlateNumber>NIS-485</licensePlateNumber>
-       </car>
-       <car id="91">
-           <category>SUV</category>
-           <brand>Bentley</brand>
-           <type>Continental GT</type>
-           <engine>1.4</engine>
-           <color>Blue</color>
-           <fuel>diesel</fuel>
-           <mfd>2012</mfd>
-           <licensePlateNumber>UIW-203</licensePlateNumber>
-       </car>
-       <car id="92">
-           <category>SUV</category>
-           <brand>Dodge</brand>
-           <type>D350</type>
-           <engine>1.6</engine>
-           <color>Pink</color>
-           <fuel>patrol</fuel>
-           <mfd>1993</mfd>
-           <licensePlateNumber>WZN-902</licensePlateNumber>
-       </car>
-       <car id="93">
-           <category>SUV</category>
-           <brand>Dodge</brand>
-           <type>Ram 3500</type>
-           <engine>1.4</engine>
-           <color>Orange</color>
-           <fuel>patrol</fuel>
-           <mfd>2007</mfd>
-           <licensePlateNumber>BPR-562</licensePlateNumber>
-       </car>
-       <car id="94">
-           <category>SUV</category>
-           <brand>Honda</brand>
-           <type>Odyssey</type>
-           <engine>2.9</engine>
-           <color>Fuscia</color>
-           <fuel>diesel</fuel>
-           <mfd>2006</mfd>
-           <licensePlateNumber>WVZ-386</licensePlateNumber>
-       </car>
-       <car id="95">
-           <category>SUV</category>
-           <brand>Acura</brand>
-           <type>CL</type>
-           <engine>2.2</engine>
-           <color>Green</color>
-           <fuel>patrol</fuel>
-           <mfd>1998</mfd>
-           <licensePlateNumber>KFW-285</licensePlateNumber>
-       </car>
-       <car id="96">
-           <category>SUV</category>
-           <brand>Lamborghini</brand>
-           <type>Diablo</type>
-           <engine>2.7</engine>
-           <color>Aquamarine</color>
-           <fuel>diesel</fuel>
-           <mfd>1996</mfd>
-           <licensePlateNumber>VWW-128</licensePlateNumber>
-       </car>
-       <car id="97">
-           <category>SUV</category>
-           <brand>Dodge</brand>
-           <type>Stratus</type>
-           <engine>1.5</engine>
-           <color>Crimson</color>
-           <fuel>patrol</fuel>
-           <mfd>1999</mfd>
-           <licensePlateNumber>EQU-804</licensePlateNumber>
-       </car>
-       <car id="98">
-           <category>SUV</category>
-           <brand>GMC</brand>
-           <type>Envoy XL</type>
-           <engine>1.5</engine>
-           <color>Pink</color>
-           <fuel>diesel</fuel>
-           <mfd>2004</mfd>
-           <licensePlateNumber>UJQ-976</licensePlateNumber>
-       </car>
-       <car id="99">
-           <category>SUV</category>
-           <brand>Ford</brand>
-           <type>Explorer</type>
-           <engine>1.2</engine>
-           <color>Turquoise</color>
-           <fuel>diesel</fuel>
-           <mfd>1992</mfd>
-           <licensePlateNumber>EYE-943</licensePlateNumber>
-       </car>
-       <car id="100">
-           <category>SUV</category>
-           <brand>Mercedes-Benz</brand>
-           <type>CL-Class</type>
-           <engine>1.4</engine>
-           <color>Turquoise</color>
-           <fuel>diesel</fuel>
-           <mfd>2002</mfd>
-           <licensePlateNumber>XJM-588</licensePlateNumber>
-       </car>
-	</cars>
-	
-    <rents>
-        <rent>
-            <id>1000001</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1027"/>
-            <total>162377</total>
-            <currency>HUF</currency>
-            <from>2016/12/05</from>
-            <to>2017/11/06</to>
-            <distance>215</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="12"/>
-        </rent>
-        <rent>
-            <id>1000002</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1023"/>
-            <total>23058</total>
-            <currency>HUF</currency>
-            <from>2017/04/28</from>
-            <to>2017/07/21</to>
-            <distance>54</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="68"/>
-        </rent>
-        <rent>
-            <id>1000003</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1021"/>
-            <total>91196</total>
-            <currency>HUF</currency>
-            <from>2017/01/20</from>
-            <to>2017/10/23</to>
-            <distance>360</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="28"/>
-        </rent>
-        <rent>
-            <id>1000004</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1026"/>
-            <total>68312</total>
-            <currency>HUF</currency>
-            <from>2017/04/13</from>
-            <to>2017/08/09</to>
-            <distance>443</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="56"/>
-        </rent>
-        <rent>
-            <id>1000005</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1016"/>
-            <total>46092</total>
-            <currency>HUF</currency>
-            <from>2017/03/09</from>
-            <to>2017/08/16</to>
-            <distance>314</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="10"/>
-        </rent>
-        <rent>
-            <id>1000006</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1026"/>
-            <total>47222</total>
-            <currency>HUF</currency>
-            <from>2017/02/25</from>
-            <to>2017/08/15</to>
-            <distance>253</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="41"/>
-        </rent>
-        <rent>
-            <id>1000007</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1020"/>
-            <total>155092</total>
-            <currency>HUF</currency>
-            <from>2017/01/01</from>
-            <to>2017/10/24</to>
-            <distance>133</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="53"/>
-        </rent>
-        <rent>
-            <id>1000008</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1024"/>
-            <total>65993</total>
-            <currency>HUF</currency>
-            <from>2017/02/18</from>
-            <to>2017/11/15</to>
-            <distance>408</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="82"/>
-        </rent>
-        <rent>
-            <id>1000009</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1015"/>
-            <total>30464</total>
-            <currency>HUF</currency>
-            <from>2016/12/10</from>
-            <to>2017/08/28</to>
-            <distance>408</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="59"/>
-        </rent>
-        <rent>
-            <id>1000010</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1017"/>
-            <total>136085</total>
-            <currency>HUF</currency>
-            <from>2017/05/02</from>
-            <to>2017/09/28</to>
-            <distance>306</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="95"/>
-        </rent>
-        <rent>
-            <id>1000011</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1018"/>
-            <total>91955</total>
-            <currency>HUF</currency>
-            <from>2017/05/08</from>
-            <to>2017/09/28</to>
-            <distance>495</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="51"/>
-        </rent>
-        <rent>
-            <id>1000012</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1019"/>
-            <total>12463</total>
-            <currency>HUF</currency>
-            <from>2016/12/06</from>
-            <to>2017/07/03</to>
-            <distance>125</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="26"/>
-        </rent>
-        <rent>
-            <id>1000013</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1020"/>
-            <total>25647</total>
-            <currency>HUF</currency>
-            <from>2017/05/19</from>
-            <to>2017/11/29</to>
-            <distance>39</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="39"/>
-        </rent>
-        <rent>
-            <id>1000014</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1020"/>
-            <total>89563</total>
-            <currency>HUF</currency>
-            <from>2017/04/24</from>
-            <to>2017/08/02</to>
-            <distance>48</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="59"/>
-        </rent>
-        <rent>
-            <id>1000015</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1012"/>
-            <total>156112</total>
-            <currency>HUF</currency>
-            <from>2017/01/07</from>
-            <to>2017/11/13</to>
-            <distance>253</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="24"/>
-        </rent>
-        <rent>
-            <id>1000016</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1013"/>
-            <total>117127</total>
-            <currency>HUF</currency>
-            <from>2017/02/16</from>
-            <to>2017/09/02</to>
-            <distance>226</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="33"/>
-        </rent>
-        <rent>
-            <id>1000017</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1016"/>
-            <total>134517</total>
-            <currency>HUF</currency>
-            <from>2017/04/11</from>
-            <to>2017/06/25</to>
-            <distance>72</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="14"/>
-        </rent>
-        <rent>
-            <id>1000018</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1018"/>
-            <total>80191</total>
-            <currency>HUF</currency>
-            <from>2017/06/10</from>
-            <to>2017/07/01</to>
-            <distance>293</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="66"/>
-        </rent>
-        <rent>
-            <id>1000019</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1025"/>
-            <total>162096</total>
-            <currency>HUF</currency>
-            <from>2017/05/14</from>
-            <to>2017/06/18</to>
-            <distance>483</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="32"/>
-        </rent>
-        <rent>
-            <id>1000020</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1023"/>
-            <total>50749</total>
-            <currency>HUF</currency>
-            <from>2017/05/15</from>
-            <to>2017/07/27</to>
-            <distance>89</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="48"/>
-        </rent>
-        <rent>
-            <id>1000021</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1028"/>
-            <total>127992</total>
-            <currency>HUF</currency>
-            <from>2017/03/23</from>
-            <to>2017/09/30</to>
-            <distance>406</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="36"/>
-        </rent>
-        <rent>
-            <id>1000022</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1022"/>
-            <total>40917</total>
-            <currency>HUF</currency>
-            <from>2017/03/19</from>
-            <to>2017/06/18</to>
-            <distance>412</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="95"/>
-        </rent>
-        <rent>
-            <id>1000023</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1012"/>
-            <total>43128</total>
-            <currency>HUF</currency>
-            <from>2016/12/16</from>
-            <to>2017/10/12</to>
-            <distance>36</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="35"/>
-        </rent>
-        <rent>
-            <id>1000024</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1012"/>
-            <total>39945</total>
-            <currency>HUF</currency>
-            <from>2017/05/01</from>
-            <to>2017/11/28</to>
-            <distance>388</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="88"/>
-        </rent>
-        <rent>
-            <id>1000025</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1016"/>
-            <total>120952</total>
-            <currency>HUF</currency>
-            <from>2017/04/30</from>
-            <to>2017/11/15</to>
-            <distance>392</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="18"/>
-        </rent>
-        <rent>
-            <id>1000026</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1019"/>
-            <total>70810</total>
-            <currency>HUF</currency>
-            <from>2017/05/10</from>
-            <to>2017/06/21</to>
-            <distance>77</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="38"/>
-        </rent>
-        <rent>
-            <id>1000027</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1023"/>
-            <total>121003</total>
-            <currency>HUF</currency>
-            <from>2017/02/07</from>
-            <to>2017/11/09</to>
-            <distance>391</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="65"/>
-        </rent>
-        <rent>
-            <id>1000028</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1022"/>
-            <total>48996</total>
-            <currency>HUF</currency>
-            <from>2017/05/31</from>
-            <to>2017/06/20</to>
-            <distance>37</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="39"/>
-        </rent>
-        <rent>
-            <id>1000029</id>
-            <storage idrefs="100002"/>
-            <person idrefs="1026"/>
-            <total>100253</total>
-            <currency>HUF</currency>
-            <from>2016/12/31</from>
-            <to>2017/07/12</to>
-            <distance>406</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="46"/>
-        </rent>
-        <rent>
-            <id>1000030</id>
-            <storage idrefs="100001"/>
-            <person idrefs="1018"/>
-            <total>91136</total>
-            <currency>HUF</currency>
-            <from>2017/02/25</from>
-            <to>2017/11/08</to>
-            <distance>412</distance>
-            <distanceUnit>Metric</distanceUnit>
-            <car idrefs="82"/>
-        </rent>
-    </rents>
+
+    <!--hatchback: 1-25
+        familycar: 26-50
+        van: 51-75
+        SUV: 76-100 -->
+    <cars>
+        <car id="1">
+            <category>hatchback</category>
+            <brand>Buick</brand>
+            <type>Roadmaster</type>
+            <engine>1.8</engine>
+            <color>Pink</color>
+            <fuel>patrol</fuel>
+            <mfd>1991</mfd>
+            <licensePlateNumber>NNC-088</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="2">
+            <category>hatchback</category>
+            <brand>Aptera</brand>
+            <type>Typ-1</type>
+            <engine>1.5</engine>
+            <color>Aquamarine</color>
+            <fuel>patrol</fuel>
+            <mfd>2009</mfd>
+            <licensePlateNumber>DFF-117</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="3">
+            <category>hatchback</category>
+            <brand>Ford</brand>
+            <type>Explorer Sport</type>
+            <engine>1.2</engine>
+            <color>Goldenrod</color>
+            <fuel>diesel</fuel>
+            <mfd>2002</mfd>
+            <licensePlateNumber>DQC-645</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="4">
+            <category>hatchback</category>
+            <brand>Mercedes-Benz</brand>
+            <type>SLK-Class</type>
+            <engine>1.3</engine>
+            <color>Maroon</color>
+            <fuel>patrol</fuel>
+            <mfd>2006</mfd>
+            <licensePlateNumber>OKO-518</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="5">
+            <category>hatchback</category>
+            <brand>Toyota</brand>
+            <type>Corolla</type>
+            <engine>1.1</engine>
+            <color>Aquamarine</color>
+            <fuel>patrol</fuel>
+            <mfd>2001</mfd>
+            <licensePlateNumber>IQR-818</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="6">
+            <category>hatchback</category>
+            <brand>Ford</brand>
+            <type>LTD Crown Victoria</type>
+            <engine>1.9</engine>
+            <color>Orange</color>
+            <fuel>diesel</fuel>
+            <mfd>1984</mfd>
+            <licensePlateNumber>VJC-554</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="7">
+            <category>hatchback</category>
+            <brand>Oldsmobile</brand>
+            <type>Silhouette</type>
+            <engine>2.3</engine>
+            <color>Khaki</color>
+            <fuel>patrol</fuel>
+            <mfd>2003</mfd>
+            <licensePlateNumber>USQ-197</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="8">
+            <category>hatchback</category>
+            <brand>Toyota</brand>
+            <type>Avalon</type>
+            <engine>2.5</engine>
+            <color>Teal</color>
+            <fuel>diesel</fuel>
+            <mfd>2006</mfd>
+            <licensePlateNumber>RPU-913</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="9">
+            <category>hatchback</category>
+            <brand>Cadillac</brand>
+            <type>Seville</type>
+            <engine>3.0</engine>
+            <color>Purple</color>
+            <fuel>diesel</fuel>
+            <mfd>2003</mfd>
+            <licensePlateNumber>SWU-421</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="10">
+            <category>hatchback</category>
+            <brand>Toyota</brand>
+            <type>Avalon</type>
+            <engine>1.6</engine>
+            <color>Indigo</color>
+            <fuel>diesel</fuel>
+            <mfd>2007</mfd>
+            <licensePlateNumber>HNM-844</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="11">
+            <category>hatchback</category>
+            <brand>Mercury</brand>
+            <type>Mountaineer</type>
+            <engine>2.8</engine>
+            <color>Aquamarine</color>
+            <fuel>patrol</fuel>
+            <mfd>2006</mfd>
+            <licensePlateNumber>KMN-382</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="12">
+            <category>hatchback</category>
+            <brand>Mazda</brand>
+            <type>Mazda6</type>
+            <engine>1.0</engine>
+            <color>Violet</color>
+            <fuel>diesel</fuel>
+            <mfd>2003</mfd>
+            <licensePlateNumber>TVC-312</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="13">
+            <category>hatchback</category>
+            <brand>Audi</brand>
+            <type>A3</type>
+            <engine>2.8</engine>
+            <color>Fuscia</color>
+            <fuel>diesel</fuel>
+            <mfd>2011</mfd>
+            <licensePlateNumber>JKC-536</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="14">
+            <category>hatchback</category>
+            <brand>Lexus</brand>
+            <type>LS</type>
+            <engine>2.1</engine>
+            <color>Goldenrod</color>
+            <fuel>patrol</fuel>
+            <mfd>1989</mfd>
+            <licensePlateNumber>GJB-451</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="15">
+            <category>hatchback</category>
+            <brand>Lincoln</brand>
+            <type>Continental Mark VII</type>
+            <engine>2.3</engine>
+            <color>Pink</color>
+            <fuel>patrol</fuel>
+            <mfd>1985</mfd>
+            <licensePlateNumber>FBI-808</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="16">
+            <category>hatchback</category>
+            <brand>Toyota</brand>
+            <type>Prius</type>
+            <engine>2.6</engine>
+            <color>Green</color>
+            <fuel>diesel</fuel>
+            <mfd>2012</mfd>
+            <licensePlateNumber>BTG-650</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="17">
+            <category>hatchback</category>
+            <brand>Ford</brand>
+            <type>Mustang</type>
+            <engine>1.5</engine>
+            <color>Fuscia</color>
+            <fuel>patrol</fuel>
+            <mfd>1985</mfd>
+            <licensePlateNumber>GAS-385</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="18">
+            <category>hatchback</category>
+            <brand>Buick</brand>
+            <type>Rendezvous</type>
+            <engine>1.3</engine>
+            <color>Blue</color>
+            <fuel>diesel</fuel>
+            <mfd>2005</mfd>
+            <licensePlateNumber>TZQ-794</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="19">
+            <category>hatchback</category>
+            <brand>Nissan</brand>
+            <type>Sentra</type>
+            <engine>1.5</engine>
+            <color>Aquamarine</color>
+            <fuel>diesel</fuel>
+            <mfd>2010</mfd>
+            <licensePlateNumber>UOO-442</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="20">
+            <category>hatchback</category>
+            <brand>Mitsubishi</brand>
+            <type>Galant</type>
+            <engine>1.6</engine>
+            <color>Puce</color>
+            <fuel>patrol</fuel>
+            <mfd>2010</mfd>
+            <licensePlateNumber>YFX-418</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="21">
+            <category>hatchback</category>
+            <brand>Dodge</brand>
+            <type>D150</type>
+            <engine>1.4</engine>
+            <color>Orange</color>
+            <fuel>diesel</fuel>
+            <mfd>1992</mfd>
+            <licensePlateNumber>KCG-429</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="22">
+            <category>hatchback</category>
+            <brand>Mercedes-Benz</brand>
+            <type>SLR McLaren</type>
+            <engine>1.6</engine>
+            <color>Indigo</color>
+            <fuel>patrol</fuel>
+            <mfd>2007</mfd>
+            <licensePlateNumber>VCV-774</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="23">
+            <category>hatchback</category>
+            <brand>Mitsubishi</brand>
+            <type>Galant</type>
+            <engine>1.8</engine>
+            <color>Puce</color>
+            <fuel>diesel</fuel>
+            <mfd>1995</mfd>
+            <licensePlateNumber>XRC-354</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="24">
+            <category>hatchback</category>
+            <brand>BMW</brand>
+            <type>Z4</type>
+            <engine>2.1</engine>
+            <color>Indigo</color>
+            <fuel>patrol</fuel>
+            <mfd>2010</mfd>
+            <licensePlateNumber>WTF-565</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="25">
+            <category>hatchback</category>
+            <brand>Mercury</brand>
+            <type>Capri</type>
+            <engine>2.1</engine>
+            <color>Mauv</color>
+            <fuel>diesel</fuel>
+            <mfd>1992</mfd>
+            <licensePlateNumber>MMD-493</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="26">
+            <category>familycar</category>
+            <brand>Pontiac</brand>
+            <type>Bonneville</type>
+            <engine>2.3</engine>
+            <color>Green</color>
+            <fuel>diesel</fuel>
+            <mfd>1964</mfd>
+            <licensePlateNumber>GEY-101</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="27">
+            <category>familycar</category>
+            <brand>Audi</brand>
+            <type>TT</type>
+            <engine>2.6</engine>
+            <color>Blue</color>
+            <fuel>patrol</fuel>
+            <mfd>2010</mfd>
+            <licensePlateNumber>PVC-847</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="28">
+            <category>familycar</category>
+            <brand>Ford</brand>
+            <type>F-Series Super Duty</type>
+            <engine>2.6</engine>
+            <color>Khaki</color>
+            <fuel>diesel</fuel>
+            <mfd>2012</mfd>
+            <licensePlateNumber>YAC-183</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="29">
+            <category>familycar</category>
+            <brand>Aston Martin</brand>
+            <type>DBS</type>
+            <engine>2.0</engine>
+            <color>Mauv</color>
+            <fuel>patrol</fuel>
+            <mfd>2009</mfd>
+            <licensePlateNumber>TAE-420</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="30">
+            <category>familycar</category>
+            <brand>Mercedes-Benz</brand>
+            <type>300E</type>
+            <engine>2.0</engine>
+            <color>Fuscia</color>
+            <fuel>diesel</fuel>
+            <mfd>1993</mfd>
+            <licensePlateNumber>KRA-070</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="31">
+            <category>familycar</category>
+            <brand>Mazda</brand>
+            <type>626</type>
+            <engine>2.1</engine>
+            <color>Blue</color>
+            <fuel>patrol</fuel>
+            <mfd>1988</mfd>
+            <licensePlateNumber>NNV-386</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="32">
+            <category>familycar</category>
+            <brand>Buick</brand>
+            <type>LeSabre</type>
+            <engine>1.5</engine>
+            <color>Turquoise</color>
+            <fuel>diesel</fuel>
+            <mfd>1995</mfd>
+            <licensePlateNumber>YFW-541</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="33">
+            <category>familycar</category>
+            <brand>Aston Martin</brand>
+            <type>DB9</type>
+            <engine>1.2</engine>
+            <color>Mauv</color>
+            <fuel>patrol</fuel>
+            <mfd>2009</mfd>
+            <licensePlateNumber>YES-596</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="34">
+            <category>familycar</category>
+            <brand>Dodge</brand>
+            <type>Grand Caravan</type>
+            <engine>1.4</engine>
+            <color>Green</color>
+            <fuel>patrol</fuel>
+            <mfd>1992</mfd>
+            <licensePlateNumber>PSD-599</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="35">
+            <category>familycar</category>
+            <brand>Mercedes-Benz</brand>
+            <type>300SE</type>
+            <engine>1.0</engine>
+            <color>Violet</color>
+            <fuel>patrol</fuel>
+            <mfd>1993</mfd>
+            <licensePlateNumber>SOM-789</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="36">
+            <category>familycar</category>
+            <brand>Lotus</brand>
+            <type>Esprit</type>
+            <engine>1.1</engine>
+            <color>Mauv</color>
+            <fuel>diesel</fuel>
+            <mfd>2004</mfd>
+            <licensePlateNumber>RUO-863</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="37">
+            <category>familycar</category>
+            <brand>Dodge</brand>
+            <type>Shadow</type>
+            <engine>1.4</engine>
+            <color>Crimson</color>
+            <fuel>patrol</fuel>
+            <mfd>1993</mfd>
+            <licensePlateNumber>SAM-529</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="38">
+            <category>familycar</category>
+            <brand>Ford</brand>
+            <type>Expedition EL</type>
+            <engine>2.4</engine>
+            <color>Khaki</color>
+            <fuel>diesel</fuel>
+            <mfd>2010</mfd>
+            <licensePlateNumber>OLI-657</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="39">
+            <category>familycar</category>
+            <brand>Buick</brand>
+            <type>Regal</type>
+            <engine>1.2</engine>
+            <color>Crimson</color>
+            <fuel>diesel</fuel>
+            <mfd>1989</mfd>
+            <licensePlateNumber>ZLZ-687</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="40">
+            <category>familycar</category>
+            <brand>Chevrolet</brand>
+            <type>Sportvan G30</type>
+            <engine>2.1</engine>
+            <color>Indigo</color>
+            <fuel>patrol</fuel>
+            <mfd>1996</mfd>
+            <licensePlateNumber>NPE-663</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="41">
+            <category>familycar</category>
+            <brand>Mitsubishi</brand>
+            <type>Diamante</type>
+            <engine>1.1</engine>
+            <color>Teal</color>
+            <fuel>patrol</fuel>
+            <mfd>2002</mfd>
+            <licensePlateNumber>OAT-320</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="42">
+            <category>familycar</category>
+            <brand>Chevrolet</brand>
+            <type>Blazer</type>
+            <engine>2.5</engine>
+            <color>Orange</color>
+            <fuel>patrol</fuel>
+            <mfd>1993</mfd>
+            <licensePlateNumber>XSY-350</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="43">
+            <category>familycar</category>
+            <brand>Buick</brand>
+            <type>Century</type>
+            <engine>2.5</engine>
+            <color>Mauv</color>
+            <fuel>patrol</fuel>
+            <mfd>1984</mfd>
+            <licensePlateNumber>EGG-008</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="44">
+            <category>familycar</category>
+            <brand>Mitsubishi</brand>
+            <type>Lancer</type>
+            <engine>1.9</engine>
+            <color>Green</color>
+            <fuel>diesel</fuel>
+            <mfd>2003</mfd>
+            <licensePlateNumber>JKQ-164</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="45">
+            <category>familycar</category>
+            <brand>Mitsubishi</brand>
+            <type>Raider</type>
+            <engine>1.5</engine>
+            <color>Aquamarine</color>
+            <fuel>diesel</fuel>
+            <mfd>2006</mfd>
+            <licensePlateNumber>SVD-618</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="46">
+            <category>familycar</category>
+            <brand>Mercedes-Benz</brand>
+            <type>W201</type>
+            <engine>1.4</engine>
+            <color>Aquamarine</color>
+            <fuel>patrol</fuel>
+            <mfd>1985</mfd>
+            <licensePlateNumber>FHX-602</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="47">
+            <category>familycar</category>
+            <brand>Pontiac</brand>
+            <type>Firefly</type>
+            <engine>1.6</engine>
+            <color>Yellow</color>
+            <fuel>patrol</fuel>
+            <mfd>1984</mfd>
+            <licensePlateNumber>TUC-823</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="48">
+            <category>familycar</category>
+            <brand>Ford</brand>
+            <type>Thunderbird</type>
+            <engine>1.1</engine>
+            <color>Indigo</color>
+            <fuel>diesel</fuel>
+            <mfd>1985</mfd>
+            <licensePlateNumber>LJN-382</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="49">
+            <category>familycar</category>
+            <brand>Ford</brand>
+            <type>F350</type>
+            <engine>2.9</engine>
+            <color>Khaki</color>
+            <fuel>diesel</fuel>
+            <mfd>1997</mfd>
+            <licensePlateNumber>UVB-883</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="50">
+            <category>familycar</category>
+            <brand>Suzuki</brand>
+            <type>Swift</type>
+            <engine>1.0</engine>
+            <color>Red</color>
+            <fuel>patrol</fuel>
+            <mfd>1999</mfd>
+            <licensePlateNumber>WEI-753</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="51">
+            <category>VAN</category>
+            <brand>Ford</brand>
+            <type>Explorer Sport Trac</type>
+            <engine>1.5</engine>
+            <color>Purple</color>
+            <fuel>patrol</fuel>
+            <mfd>2001</mfd>
+            <licensePlateNumber>HBE-066</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="52">
+            <category>VAN</category>
+            <brand>Volkswagen</brand>
+            <type>Fox</type>
+            <engine>2.6</engine>
+            <color>Fuscia</color>
+            <fuel>patrol</fuel>
+            <mfd>1991</mfd>
+            <licensePlateNumber>IUV-009</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="53">
+            <category>VAN</category>
+            <brand>Lincoln</brand>
+            <type>Navigator</type>
+            <engine>1.7</engine>
+            <color>Maroon</color>
+            <fuel>diesel</fuel>
+            <mfd>2003</mfd>
+            <licensePlateNumber>SIC-263</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="54">
+            <category>VAN</category>
+            <brand>Ford</brand>
+            <type>F-250 Super Duty</type>
+            <engine>1.2</engine>
+            <color>Aquamarine</color>
+            <fuel>diesel</fuel>
+            <mfd>2006</mfd>
+            <licensePlateNumber>XJN-961</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="55">
+            <category>VAN</category>
+            <brand>Volkswagen</brand>
+            <type>Tiguan</type>
+            <engine>2.9</engine>
+            <color>Purple</color>
+            <fuel>patrol</fuel>
+            <mfd>2010</mfd>
+            <licensePlateNumber>JAJ-028</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="56">
+            <category>VAN</category>
+            <brand>Hyundai</brand>
+            <type>Accent</type>
+            <engine>1.5</engine>
+            <color>Maroon</color>
+            <fuel>diesel</fuel>
+            <mfd>1995</mfd>
+            <licensePlateNumber>CKX-370</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="57">
+            <category>VAN</category>
+            <brand>Saab</brand>
+            <type>9000</type>
+            <engine>2.1</engine>
+            <color>Mauv</color>
+            <fuel>patrol</fuel>
+            <mfd>1999</mfd>
+            <licensePlateNumber>JFD-849</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="58">
+            <category>VAN</category>
+            <brand>Dodge</brand>
+            <type>Intrepid</type>
+            <engine>2.7</engine>
+            <color>Goldenrod</color>
+            <fuel>diesel</fuel>
+            <mfd>1999</mfd>
+            <licensePlateNumber>YXV-048</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="59">
+            <category>VAN</category>
+            <brand>Honda</brand>
+            <type>CR-V</type>
+            <engine>1.1</engine>
+            <color>Khaki</color>
+            <fuel>patrol</fuel>
+            <mfd>2002</mfd>
+            <licensePlateNumber>JBB-262</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="60">
+            <category>VAN</category>
+            <brand>Cadillac</brand>
+            <type>DeVille</type>
+            <engine>1.2</engine>
+            <color>Red</color>
+            <fuel>patrol</fuel>
+            <mfd>2001</mfd>
+            <licensePlateNumber>GOR-309</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="61">
+            <category>VAN</category>
+            <brand>Mazda</brand>
+            <type>MPV</type>
+            <engine>1.6</engine>
+            <color>Khaki</color>
+            <fuel>diesel</fuel>
+            <mfd>1993</mfd>
+            <licensePlateNumber>BKJ-207</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="62">
+            <category>VAN</category>
+            <brand>Scion</brand>
+            <type>iQ</type>
+            <engine>2.6</engine>
+            <color>Aquamarine</color>
+            <fuel>diesel</fuel>
+            <mfd>2012</mfd>
+            <licensePlateNumber>JYG-900</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="63">
+            <category>VAN</category>
+            <brand>Ford</brand>
+            <type>Flex</type>
+            <engine>2.7</engine>
+            <color>Purple</color>
+            <fuel>diesel</fuel>
+            <mfd>2012</mfd>
+            <licensePlateNumber>SXQ-527</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="64">
+            <category>VAN</category>
+            <brand>Volkswagen</brand>
+            <type>Passat</type>
+            <engine>2.7</engine>
+            <color>Purple</color>
+            <fuel>patrol</fuel>
+            <mfd>1990</mfd>
+            <licensePlateNumber>IVP-602</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="65">
+            <category>VAN</category>
+            <brand>Dodge</brand>
+            <type>Avenger</type>
+            <engine>2.2</engine>
+            <color>Goldenrod</color>
+            <fuel>diesel</fuel>
+            <mfd>1997</mfd>
+            <licensePlateNumber>JTO-811</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="66">
+            <category>VAN</category>
+            <brand>Lotus</brand>
+            <type>Esprit</type>
+            <engine>2.3</engine>
+            <color>Crimson</color>
+            <fuel>patrol</fuel>
+            <mfd>1998</mfd>
+            <licensePlateNumber>VVG-006</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="67">
+            <category>VAN</category>
+            <brand>Pontiac</brand>
+            <type>Sunbird</type>
+            <engine>2.7</engine>
+            <color>Maroon</color>
+            <fuel>patrol</fuel>
+            <mfd>1987</mfd>
+            <licensePlateNumber>SLJ-555</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="68">
+            <category>VAN</category>
+            <brand>Jaguar</brand>
+            <type>XF</type>
+            <engine>1.0</engine>
+            <color>Puce</color>
+            <fuel>patrol</fuel>
+            <mfd>2011</mfd>
+            <licensePlateNumber>UJB-338</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="69">
+            <category>VAN</category>
+            <brand>Mitsubishi</brand>
+            <type>Lancer</type>
+            <engine>2.5</engine>
+            <color>Khaki</color>
+            <fuel>diesel</fuel>
+            <mfd>2011</mfd>
+            <licensePlateNumber>GBA-414</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="70">
+            <category>VAN</category>
+            <brand>Volvo</brand>
+            <type>S40</type>
+            <engine>1.6</engine>
+            <color>Purple</color>
+            <fuel>patrol</fuel>
+            <mfd>2006</mfd>
+            <licensePlateNumber>VHA-403</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="71">
+            <category>VAN</category>
+            <brand>Porsche</brand>
+            <type>Boxster</type>
+            <engine>1.6</engine>
+            <color>Maroon</color>
+            <fuel>patrol</fuel>
+            <mfd>1997</mfd>
+            <licensePlateNumber>PGP-314</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="72">
+            <category>VAN</category>
+            <brand>Nissan</brand>
+            <type>Maxima</type>
+            <engine>1.4</engine>
+            <color>Mauv</color>
+            <fuel>diesel</fuel>
+            <mfd>2004</mfd>
+            <licensePlateNumber>CNJ-531</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="73">
+            <category>VAN</category>
+            <brand>Lotus</brand>
+            <type>Exige</type>
+            <engine>1.4</engine>
+            <color>Fuscia</color>
+            <fuel>diesel</fuel>
+            <mfd>2009</mfd>
+            <licensePlateNumber>YQM-825</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="74">
+            <category>VAN</category>
+            <brand>Isuzu</brand>
+            <type>i-290</type>
+            <engine>1.6</engine>
+            <color>Aquamarine</color>
+            <fuel>diesel</fuel>
+            <mfd>2007</mfd>
+            <licensePlateNumber>KXJ-728</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="75">
+            <category>VAN</category>
+            <brand>Suzuki</brand>
+            <type>Kizashi</type>
+            <engine>2.7</engine>
+            <color>Aquamarine</color>
+            <fuel>diesel</fuel>
+            <mfd>2010</mfd>
+            <licensePlateNumber>UVU-690</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="76">
+            <category>SUV</category>
+            <brand>Ford</brand>
+            <type>Mustang</type>
+            <engine>1.4</engine>
+            <color>Green</color>
+            <fuel>patrol</fuel>
+            <mfd>2007</mfd>
+            <licensePlateNumber>MND-242</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="77">
+            <category>SUV</category>
+            <brand>Volvo</brand>
+            <type>XC60</type>
+            <engine>2.7</engine>
+            <color>Turquoise</color>
+            <fuel>patrol</fuel>
+            <mfd>2012</mfd>
+            <licensePlateNumber>FPT-037</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="78">
+            <category>SUV</category>
+            <brand>Buick</brand>
+            <type>Rendezvous</type>
+            <engine>1.3</engine>
+            <color>Red</color>
+            <fuel>diesel</fuel>
+            <mfd>2005</mfd>
+            <licensePlateNumber>CWW-705</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="79">
+            <category>SUV</category>
+            <brand>Volvo</brand>
+            <type>XC70</type>
+            <engine>1.5</engine>
+            <color>Green</color>
+            <fuel>patrol</fuel>
+            <mfd>2007</mfd>
+            <licensePlateNumber>YUM-564</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="80">
+            <category>SUV</category>
+            <brand>Honda</brand>
+            <type>Civic Si</type>
+            <engine>1.5</engine>
+            <color>Maroon</color>
+            <fuel>patrol</fuel>
+            <mfd>2005</mfd>
+            <licensePlateNumber>UYX-012</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="81">
+            <category>SUV</category>
+            <brand>Honda</brand>
+            <type>Accord</type>
+            <engine>2.0</engine>
+            <color>Maroon</color>
+            <fuel>diesel</fuel>
+            <mfd>1996</mfd>
+            <licensePlateNumber>YZP-949</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="82">
+            <category>SUV</category>
+            <brand>Subaru</brand>
+            <type>Legacy</type>
+            <engine>1.2</engine>
+            <color>Green</color>
+            <fuel>diesel</fuel>
+            <mfd>2012</mfd>
+            <licensePlateNumber>EUV-192</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="83">
+            <category>SUV</category>
+            <brand>Volkswagen</brand>
+            <type>Passat</type>
+            <engine>2.8</engine>
+            <color>Fuscia</color>
+            <fuel>patrol</fuel>
+            <mfd>1994</mfd>
+            <licensePlateNumber>TEM-278</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="84">
+            <category>SUV</category>
+            <brand>Lamborghini</brand>
+            <type>Gallardo</type>
+            <engine>2.4</engine>
+            <color>Fuscia</color>
+            <fuel>diesel</fuel>
+            <mfd>2011</mfd>
+            <licensePlateNumber>NVK-820</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="85">
+            <category>SUV</category>
+            <brand>Mitsubishi</brand>
+            <type>Pajero</type>
+            <engine>1.3</engine>
+            <color>Indigo</color>
+            <fuel>diesel</fuel>
+            <mfd>1999</mfd>
+            <licensePlateNumber>RTA-074</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="86">
+            <category>SUV</category>
+            <brand>Porsche</brand>
+            <type>911</type>
+            <engine>1.9</engine>
+            <color>Fuscia</color>
+            <fuel>patrol</fuel>
+            <mfd>2008</mfd>
+            <licensePlateNumber>ZDU-469</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="87">
+            <category>SUV</category>
+            <brand>Chevrolet</brand>
+            <type>Silverado</type>
+            <engine>1.9</engine>
+            <color>Red</color>
+            <fuel>diesel</fuel>
+            <mfd>2002</mfd>
+            <licensePlateNumber>GUV-243</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="88">
+            <category>SUV</category>
+            <brand>Chevrolet</brand>
+            <type>Impala</type>
+            <engine>2.5</engine>
+            <color>Fuscia</color>
+            <fuel>patrol</fuel>
+            <mfd>2010</mfd>
+            <licensePlateNumber>FMS-681</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="89">
+            <category>SUV</category>
+            <brand>GMC</brand>
+            <type>Sierra</type>
+            <engine>2.5</engine>
+            <color>Pink</color>
+            <fuel>diesel</fuel>
+            <mfd>2007</mfd>
+            <licensePlateNumber>WNQ-812</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="90">
+            <category>SUV</category>
+            <brand>Ford</brand>
+            <type>Ranger</type>
+            <engine>1.7</engine>
+            <color>Purple</color>
+            <fuel>patrol</fuel>
+            <mfd>1992</mfd>
+            <licensePlateNumber>NIS-485</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="91">
+            <category>SUV</category>
+            <brand>Bentley</brand>
+            <type>Continental GT</type>
+            <engine>1.4</engine>
+            <color>Blue</color>
+            <fuel>diesel</fuel>
+            <mfd>2012</mfd>
+            <licensePlateNumber>UIW-203</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="92">
+            <category>SUV</category>
+            <brand>Dodge</brand>
+            <type>D350</type>
+            <engine>1.6</engine>
+            <color>Pink</color>
+            <fuel>patrol</fuel>
+            <mfd>1993</mfd>
+            <licensePlateNumber>WZN-902</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+        <car id="93">
+            <category>SUV</category>
+            <brand>Dodge</brand>
+            <type>Ram 3500</type>
+            <engine>1.4</engine>
+            <color>Orange</color>
+            <fuel>patrol</fuel>
+            <mfd>2007</mfd>
+            <licensePlateNumber>BPR-562</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="94">
+            <category>SUV</category>
+            <brand>Honda</brand>
+            <type>Odyssey</type>
+            <engine>2.9</engine>
+            <color>Fuscia</color>
+            <fuel>diesel</fuel>
+            <mfd>2006</mfd>
+            <licensePlateNumber>WVZ-386</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="95">
+            <category>SUV</category>
+            <brand>Acura</brand>
+            <type>CL</type>
+            <engine>2.2</engine>
+            <color>Green</color>
+            <fuel>patrol</fuel>
+            <mfd>1998</mfd>
+            <licensePlateNumber>KFW-285</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="96">
+            <category>SUV</category>
+            <brand>Lamborghini</brand>
+            <type>Diablo</type>
+            <engine>2.7</engine>
+            <color>Aquamarine</color>
+            <fuel>diesel</fuel>
+            <mfd>1996</mfd>
+            <licensePlateNumber>VWW-128</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="97">
+            <category>SUV</category>
+            <brand>Dodge</brand>
+            <type>Stratus</type>
+            <engine>1.5</engine>
+            <color>Crimson</color>
+            <fuel>patrol</fuel>
+            <mfd>1999</mfd>
+            <licensePlateNumber>EQU-804</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="98">
+            <category>SUV</category>
+            <brand>GMC</brand>
+            <type>Envoy XL</type>
+            <engine>1.5</engine>
+            <color>Pink</color>
+            <fuel>diesel</fuel>
+            <mfd>2004</mfd>
+            <licensePlateNumber>UJQ-976</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>2</seatingCapacity>
+        </car>
+        <car id="99">
+            <category>SUV</category>
+            <brand>Ford</brand>
+            <type>Explorer</type>
+            <engine>1.2</engine>
+            <color>Turquoise</color>
+            <fuel>diesel</fuel>
+            <mfd>1992</mfd>
+            <licensePlateNumber>EYE-943</licensePlateNumber>
+            <climated>false</climated>
+            <transmission>auto</transmission>
+            <seatingCapacity>5</seatingCapacity>
+        </car>
+        <car id="100">
+            <category>SUV</category>
+            <brand>Mercedes-Benz</brand>
+            <type>CL-Class</type>
+            <engine>1.4</engine>
+            <color>Turquoise</color>
+            <fuel>diesel</fuel>
+            <mfd>2002</mfd>
+            <licensePlateNumber>XJM-588</licensePlateNumber>
+            <climated>true</climated>
+            <transmission>manual</transmission>
+            <seatingCapacity>7</seatingCapacity>
+        </car>
+    </cars>
 
 </company>

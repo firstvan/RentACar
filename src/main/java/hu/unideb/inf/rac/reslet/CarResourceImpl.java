@@ -11,8 +11,9 @@ public class CarResourceImpl extends ServerResource implements CarResource {
     public Car retive() {
         Car car = null;
         try {
+            String id = (String) getRequest().getAttributes().get("id");
             FirstBaseXDB database = FirstBaseXDB.getInstance();
-            String query = "xquery doc('rentacardb')/company/cars/car[1]";
+            String query = "xquery doc('rentacardb')/company/cars/car[@id=" + id + "]";
             String result = database.query(query);
             car = JAXBUtil.objectFromString(Car.class, result);
         } catch (Exception e) {
