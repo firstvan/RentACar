@@ -37,6 +37,36 @@
             element results { for $sp in doc('rentacardb')/company/sites/site[@id=$id]/employee/salesperson/person/@idrefs
             return doc('rentacardb')/company/persons/person[@id=$sp] }</code></td>
     </tr>
+    <tr>
+        <th scope="row">4</th>
+        <td>Listázzuk ki azokat az autókat, amelyeket 2017-01-01-től 2018-08-17-ig kölcsönöztek ki a 100001-es idval rendelkező telepről, kölcsönzés kezdete szerint növekvőbe,
+            továbbá az eredményben jelenjen meg az is, hogy mikortól meddig volt a kölcsönzés(URL paraméterezhető)</td>
+        <td><a href="http://localhost:8888/carsbyrentdate?siteid=100001&from=2017-01-01&to=2018-08-17">Megnyit</a></td>
+        <td><code>
+            declare variable $eFrom as xs:date external;<br/>
+            declare variable $eTo as xs:date external;<br/>
+            declare variable $eSiteId as xs:string external;<br/>
+
+            let $getSites := function($site) {<br/>
+            for $a in (1)<br/>
+            return if ($site eq "") then<br/>
+            doc('rentacardb')/company/sites/site/rents/rent<br/>
+            else<br/>
+            doc('rentacardb')/company/sites/site[@id eq $site]/rents/rent<br/>
+            }<br/>
+
+            let $getCars := function($from, $to, $siteId) {<br/>
+            for $rent in $getSites($siteId)<br/>
+            where ($rent/from > $from and $rent/to < $to)<br/>
+            order by $rent/from<br/>
+            return for $car in doc('rentacardb')/company/cars/car<br/>
+            where $car/@id = $rent/car/@idrefs<br/>
+            return element { "result"} {($rent/from, $rent/to, $car) }<br/>
+            }<br/>
+
+            return element {"results"} {$getCars($eFrom, $eTo, $eSiteId)}
+        </code></td>
+    </tr>
     </tbody>
 </table>
 </body>

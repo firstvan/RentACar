@@ -28,6 +28,7 @@ public class RentACarMain extends Application {
         router.attach("http://localhost:8888/cars", CarsReourceImpl.class);
         router.attach("http://localhost:8888/car/{id}", CarResourceImpl.class);
         router.attach("http://localhost:8888/salesBySite/{siteId}", SalesResourceImpl.class);
+        router.attach("http://localhost:8888/carsbyrentdate?siteid={siteId}&from={from}&to={to}", RentedCarsBetweenDatesBySiteImp.class);
         router.attach("http://localhost:8888/add", StringResourceImpl.class);
         return router;
     }
