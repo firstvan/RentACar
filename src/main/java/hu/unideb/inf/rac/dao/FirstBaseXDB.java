@@ -1,9 +1,12 @@
 package hu.unideb.inf.rac.dao;
 
+import org.basex.api.client.ClientQuery;
 import org.basex.api.client.ClientSession;
+import org.basex.core.Context;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.Map;
 
 public class FirstBaseXDB {
 
@@ -43,6 +46,17 @@ public class FirstBaseXDB {
 
     public String query(final String query) throws IOException {
         return session.execute(query);
+    }
+
+    public String queryWithParam(final String query, final Map<String, Object> params) throws Exception {
+        try (ClientQuery clientQuery = session.query(query)) {
+
+            for(Map.Entry<String, Object> entry : params.entrySet()) {
+                clientQuery.bind(entry.getKey(), entry.getValue());
+            }
+
+            return clientQuery.execute();
+        }
     }
 
     public void addElement(InputStream node) throws IOException {

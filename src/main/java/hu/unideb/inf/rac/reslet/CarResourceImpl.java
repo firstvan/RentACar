@@ -1,25 +1,34 @@
 package hu.unideb.inf.rac.reslet;
 
-import hu.unideb.inf.jaxb.JAXBUtil;
 import hu.unideb.inf.rac.dao.FirstBaseXDB;
-import hu.unideb.inf.rac.model.Car;
+import org.restlet.data.MediaType;
+import org.restlet.representation.Representation;
+import org.restlet.representation.StringRepresentation;
 import org.restlet.resource.ServerResource;
+
+import java.util.HashMap;
 
 public class CarResourceImpl extends ServerResource implements CarResource {
 
     @Override
-    public Car retive() {
-        Car car = null;
+    public Representation retive() {
+        StringRepresentation rep = null;
         try {
             String id = (String) getRequest().getAttributes().get("id");
             FirstBaseXDB database = FirstBaseXDB.getInstance();
-            String query = "xquery doc('rentacardb')/company/cars/car[@id=" + id + "]";
-            String result = database.query(query);
-            car = JAXBUtil.objectFromString(Car.class, result);
+            HashMap<String, Object> params = new HashMap<>();
+            params.put("id", id);
+
+            String query = "declare variable $id as xs:string external; " +
+                    "doc('rentacardb')/company/cars/car[@id=$id]";
+
+            String result = database.queryWithParam(query, params);
+            rep = new StringRepresentation(result);
+            rep.setMediaType(MediaType.APPLICATION_XML);
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return car;
+        return rep;
     }
 
 

@@ -11,8 +11,11 @@ import org.restlet.routing.Router;
 
 public class RentACarMain extends Application {
 
+    private static FirstBaseXDB firstBaseXDB;
+
     public static void main(String[] args) throws Exception {
         new Server(Protocol.HTTP, 8888, new RentACarMain()).start();
+        firstBaseXDB = FirstBaseXDB.getInstance();
         //initDB();
         //reinitDB();
     }
@@ -30,12 +33,10 @@ public class RentACarMain extends Application {
     }
 
     private static void initDB() throws Exception {
-        FirstBaseXDB firstBaseXDB = FirstBaseXDB.getInstance();
         firstBaseXDB.createDb();
     }
 
     private static void reinitDB() throws Exception {
-        FirstBaseXDB firstBaseXDB = FirstBaseXDB.getInstance();
         firstBaseXDB.deleteDB();
         firstBaseXDB.createDb();
     }

@@ -20,20 +20,22 @@
         <th scope="row">1</th>
         <td>Kérjük le az adatbázisban előforduló összes autót</td>
         <td><a href="http://localhost:8888/cars">Megnyit</a></td>
-        <td><code>"xquery doc('rentacardb')/company/cars"</code></td>
+        <td><code>xquery doc('rentacardb')/company/cars</code></td>
     </tr>
     <tr>
         <th scope="row">2</th>
         <td>Listázzuk ki a 10-es idval rendelkező autót (URL paraméterezhető)</td>
         <td><a href="http://localhost:8888/car/10">Megnyit</a></td>
-        <td><code>"xquery doc('rentacardb')/company/cars/car[@id=" + id + "]"</code></td>
+        <td><code>declare variable $id as xs:string external;
+            doc('rentacardb')/company/cars/car[@id=$id]</code></td>
     </tr>
     <tr>
         <th scope="row">3</th>
         <td>Listázzuk ki az 100001-es telepen lévő összes értékesítőt (URL paraméterezhető)</td>
         <td><a href="http://localhost:8888/salesBySite/100001">Megnyit</a></td>
-        <td><code>"xquery element results { for $sp in doc('rentacardb')/company/sites/site[@id=" + id + "]/employee/salesperson/person/@idrefs
-            return doc('rentacardb')/company/persons/person[@id=$sp] }"</code></td>
+        <td><code>declare variable $id as xs:string external;
+            element results { for $sp in doc('rentacardb')/company/sites/site[@id=$id]/employee/salesperson/person/@idrefs
+            return doc('rentacardb')/company/persons/person[@id=$sp] }</code></td>
     </tr>
     </tbody>
 </table>
