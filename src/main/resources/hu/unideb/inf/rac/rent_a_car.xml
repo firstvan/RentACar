@@ -163,8 +163,8 @@
                     <person idrefs="1027"/>
                     <total>162377</total>
                     <currency>HUF</currency>
-                    <from>2016/12/05</from>
-                    <to>2017/11/06</to>
+                    <from>2016-12-05</from>
+                    <to>2017-11-06</to>
                     <distance>215</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="12"/>
@@ -174,8 +174,8 @@
                     <person idrefs="1021"/>
                     <total>91196</total>
                     <currency>HUF</currency>
-                    <from>2017/01/20</from>
-                    <to>2017/10/23</to>
+                    <from>2017-01-20</from>
+                    <to>2017-10-23</to>
                     <distance>360</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="28"/>
@@ -185,8 +185,8 @@
                     <person idrefs="1026"/>
                     <total>68312</total>
                     <currency>HUF</currency>
-                    <from>2017/04/13</from>
-                    <to>2017/08/09</to>
+                    <from>2017-04-13</from>
+                    <to>2017-08-09</to>
                     <distance>443</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="56"/>
@@ -196,8 +196,8 @@
                     <person idrefs="1016"/>
                     <total>46092</total>
                     <currency>HUF</currency>
-                    <from>2017/03/09</from>
-                    <to>2017/08/16</to>
+                    <from>2017-03-09</from>
+                    <to>2017-08-16</to>
                     <distance>314</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="10"/>
@@ -207,8 +207,8 @@
                     <person idrefs="1020"/>
                     <total>155092</total>
                     <currency>HUF</currency>
-                    <from>2017/01/01</from>
-                    <to>2017/10/24</to>
+                    <from>2017-01-01</from>
+                    <to>2017-10-24</to>
                     <distance>133</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="53"/>
@@ -218,8 +218,8 @@
                     <person idrefs="1024"/>
                     <total>65993</total>
                     <currency>HUF</currency>
-                    <from>2017/02/18</from>
-                    <to>2017/11/15</to>
+                    <from>2017-02-18</from>
+                    <to>2017-11-15</to>
                     <distance>408</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="82"/>
@@ -229,8 +229,8 @@
                     <person idrefs="1015"/>
                     <total>30464</total>
                     <currency>HUF</currency>
-                    <from>2016/12/10</from>
-                    <to>2017/08/28</to>
+                    <from>2016-12-10</from>
+                    <to>2017-08-28</to>
                     <distance>408</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="59"/>
@@ -240,8 +240,8 @@
                     <person idrefs="1018"/>
                     <total>91955</total>
                     <currency>HUF</currency>
-                    <from>2017/05/08</from>
-                    <to>2017/09/28</to>
+                    <from>2017-05-08</from>
+                    <to>2017-09-28</to>
                     <distance>495</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="51"/>
@@ -251,8 +251,8 @@
                     <person idrefs="1019"/>
                     <total>12463</total>
                     <currency>HUF</currency>
-                    <from>2016/12/06</from>
-                    <to>2017/07/03</to>
+                    <from>2016-12-06</from>
+                    <to>2017-07-03</to>
                     <distance>125</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="26"/>
@@ -262,8 +262,8 @@
                     <person idrefs="1020"/>
                     <total>89563</total>
                     <currency>HUF</currency>
-                    <from>2017/04/24</from>
-                    <to>2017/08/02</to>
+                    <from>2017-04-24</from>
+                    <to>2017-08-02</to>
                     <distance>48</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="59"/>
@@ -273,8 +273,8 @@
                     <person idrefs="1013"/>
                     <total>117127</total>
                     <currency>HUF</currency>
-                    <from>2017/02/16</from>
-                    <to>2017/09/02</to>
+                    <from>2017-02-16</from>
+                    <to>2017-09-02</to>
                     <distance>226</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="33"/>
@@ -284,8 +284,8 @@
                     <person idrefs="1025"/>
                     <total>162096</total>
                     <currency>HUF</currency>
-                    <from>2017/05/14</from>
-                    <to>2017/06/18</to>
+                    <from>2017-05-14</from>
+                    <to>2017-06-18</to>
                     <distance>483</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="32"/>
@@ -295,8 +295,8 @@
                     <person idrefs="1028"/>
                     <total>127992</total>
                     <currency>HUF</currency>
-                    <from>2017/03/23</from>
-                    <to>2017/09/30</to>
+                    <from>2017-03-23</from>
+                    <to>2017-09-30</to>
                     <distance>406</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="36"/>
@@ -306,8 +306,8 @@
                     <person idrefs="1012"/>
                     <total>43128</total>
                     <currency>HUF</currency>
-                    <from>2016/12/16</from>
-                    <to>2017/10/12</to>
+                    <from>2016-12-16</from>
+                    <to>2017-10-12</to>
                     <distance>36</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="35"/>
@@ -317,8 +317,8 @@
                     <person idrefs="1018"/>
                     <total>91136</total>
                     <currency>HUF</currency>
-                    <from>2017/02/25</from>
-                    <to>2017/11/08</to>
+                    <from>2017-02-25</from>
+                    <to>2017-11-08</to>
                     <distance>412</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="82"/>
@@ -491,8 +491,8 @@
                     <person idrefs="1023"/>
                     <total>23058</total>
                     <currency>HUF</currency>
-                    <from>2017/04/28</from>
-                    <to>2017/07/21</to>
+                    <from>2017-04-28</from>
+                    <to>2017-07-21</to>
                     <distance>54</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="68"/>
@@ -502,8 +502,8 @@
                     <person idrefs="1026"/>
                     <total>47222</total>
                     <currency>HUF</currency>
-                    <from>2017/02/25</from>
-                    <to>2017/08/15</to>
+                    <from>2017-02-25</from>
+                    <to>2017-08-15</to>
                     <distance>253</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="41"/>
@@ -513,8 +513,8 @@
                     <person idrefs="1017"/>
                     <total>136085</total>
                     <currency>HUF</currency>
-                    <from>2017/05/02</from>
-                    <to>2017/09/28</to>
+                    <from>2017-05-02</from>
+                    <to>2017-09-28</to>
                     <distance>306</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="95"/>
@@ -524,8 +524,8 @@
                     <person idrefs="1020"/>
                     <total>25647</total>
                     <currency>HUF</currency>
-                    <from>2017/05/19</from>
-                    <to>2017/11/29</to>
+                    <from>2017-05-19</from>
+                    <to>2017-11-29</to>
                     <distance>39</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="39"/>
@@ -535,8 +535,8 @@
                     <person idrefs="1012"/>
                     <total>156112</total>
                     <currency>HUF</currency>
-                    <from>2017/01/07</from>
-                    <to>2017/11/13</to>
+                    <from>2017-01-07</from>
+                    <to>2017-11-13</to>
                     <distance>253</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="24"/>
@@ -546,8 +546,8 @@
                     <person idrefs="1016"/>
                     <total>134517</total>
                     <currency>HUF</currency>
-                    <from>2017/04/11</from>
-                    <to>2017/06/25</to>
+                    <from>2017-04-11</from>
+                    <to>2017-06-25</to>
                     <distance>72</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="14"/>
@@ -557,8 +557,8 @@
                     <person idrefs="1018"/>
                     <total>80191</total>
                     <currency>HUF</currency>
-                    <from>2017/06/10</from>
-                    <to>2017/07/01</to>
+                    <from>2017-06-10</from>
+                    <to>2017-07-01</to>
                     <distance>293</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="66"/>
@@ -568,8 +568,8 @@
                     <person idrefs="1023"/>
                     <total>50749</total>
                     <currency>HUF</currency>
-                    <from>2017/05/15</from>
-                    <to>2017/07/27</to>
+                    <from>2017-05-15</from>
+                    <to>2017-07-27</to>
                     <distance>89</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="48"/>
@@ -579,8 +579,8 @@
                     <person idrefs="1022"/>
                     <total>40917</total>
                     <currency>HUF</currency>
-                    <from>2017/03/19</from>
-                    <to>2017/06/18</to>
+                    <from>2017-03-19</from>
+                    <to>2017-06-18</to>
                     <distance>412</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="95"/>
@@ -590,8 +590,8 @@
                     <person idrefs="1012"/>
                     <total>39945</total>
                     <currency>HUF</currency>
-                    <from>2017/05/01</from>
-                    <to>2017/11/28</to>
+                    <from>2017-05-01</from>
+                    <to>2017-11-28</to>
                     <distance>388</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="88"/>
@@ -601,8 +601,8 @@
                     <person idrefs="1016"/>
                     <total>120952</total>
                     <currency>HUF</currency>
-                    <from>2017/04/30</from>
-                    <to>2017/11/15</to>
+                    <from>2017-04-30</from>
+                    <to>2017-11-15</to>
                     <distance>392</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="18"/>
@@ -612,8 +612,8 @@
                     <person idrefs="1019"/>
                     <total>70810</total>
                     <currency>HUF</currency>
-                    <from>2017/05/10</from>
-                    <to>2017/06/21</to>
+                    <from>2017-05-10</from>
+                    <to>2017-06-21</to>
                     <distance>77</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="38"/>
@@ -623,8 +623,8 @@
                     <person idrefs="1023"/>
                     <total>121003</total>
                     <currency>HUF</currency>
-                    <from>2017/02/07</from>
-                    <to>2017/11/09</to>
+                    <from>2017-02-07</from>
+                    <to>2017-11-09</to>
                     <distance>391</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="65"/>
@@ -634,8 +634,8 @@
                     <person idrefs="1022"/>
                     <total>48996</total>
                     <currency>HUF</currency>
-                    <from>2017/05/31</from>
-                    <to>2017/06/20</to>
+                    <from>2017-05-31</from>
+                    <to>2017-06-20</to>
                     <distance>37</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="39"/>
@@ -645,8 +645,8 @@
                     <person idrefs="1026"/>
                     <total>100253</total>
                     <currency>HUF</currency>
-                    <from>2016/12/31</from>
-                    <to>2017/07/12</to>
+                    <from>2016-12-31</from>
+                    <to>2017-07-12</to>
                     <distance>406</distance>
                     <distanceUnit>Metric</distanceUnit>
                     <car idrefs="46"/>
@@ -670,7 +670,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1980/09/17</birth>
+            <birth>1980-09-17</birth>
             <driverLicense>ST236476</driverLicense>
         </person>
         <person id="1002">
@@ -685,7 +685,7 @@
                     <apartment>63</apartment>
                 </location>
             </address>
-            <birth>1985/02/24</birth>
+            <birth>1985-02-24</birth>
             <driverLicense>SH395600</driverLicense>
         </person>
         <person id="1003">
@@ -700,7 +700,7 @@
                     <apartment>66</apartment>
                 </location>
             </address>
-            <birth>1985/12/18</birth>
+            <birth>1985-12-18</birth>
             <driverLicense>MZ140899</driverLicense>
         </person>
         <person id="1004">
@@ -715,7 +715,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1980/09/28</birth>
+            <birth>1980-09-28</birth>
             <driverLicense>MS420987</driverLicense>
         </person>
         <person id="1005">
@@ -730,7 +730,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1979/09/02</birth>
+            <birth>1979-09-02</birth>
             <driverLicense>TD101521</driverLicense>
         </person>
         <person id="1006">
@@ -745,7 +745,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1970/07/16</birth>
+            <birth>1970-07-16</birth>
             <driverLicense>JQ648615</driverLicense>
         </person>
         <person id="1007">
@@ -760,7 +760,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1960/10/17</birth>
+            <birth>1960-10-17</birth>
             <driverLicense>VD994448</driverLicense>
         </person>
         <person id="1008">
@@ -775,7 +775,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1973/09/11</birth>
+            <birth>1973-09-11</birth>
             <driverLicense>RS445149</driverLicense>
         </person>
         <person id="1009">
@@ -790,7 +790,7 @@
                     <apartment>93</apartment>
                 </location>
             </address>
-            <birth>1967/07/02</birth>
+            <birth>1967-07-02</birth>
             <driverLicense>FS927927</driverLicense>
         </person>
         <person id="1010">
@@ -805,7 +805,7 @@
                     <apartment>78</apartment>
                 </location>
             </address>
-            <birth>1961/03/29</birth>
+            <birth>1961-03-29</birth>
             <driverLicense>MN880513</driverLicense>
         </person>
         <person id="1011">
@@ -820,7 +820,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1965/12/16</birth>
+            <birth>1965-12-16</birth>
             <driverLicense>ZL371740</driverLicense>
         </person>
         <person id="1012">
@@ -835,7 +835,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1976/07/05</birth>
+            <birth>1976-07-05</birth>
             <driverLicense>AG944095</driverLicense>
         </person>
         <person id="1013">
@@ -850,7 +850,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1960/06/02</birth>
+            <birth>1960-06-02</birth>
             <driverLicense>JP710797</driverLicense>
         </person>
         <person id="1014">
@@ -865,7 +865,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1960/04/10</birth>
+            <birth>1960-04-10</birth>
             <driverLicense>LC648514</driverLicense>
         </person>
         <person id="1015">
@@ -880,7 +880,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1973/04/12</birth>
+            <birth>1973-04-12</birth>
             <driverLicense>UA586759</driverLicense>
         </person>
         <person id="1016">
@@ -895,7 +895,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1970/02/24</birth>
+            <birth>1970-02-24</birth>
             <driverLicense>OU515093</driverLicense>
         </person>
         <person id="1017">
@@ -910,7 +910,7 @@
                     <apartment>84</apartment>
                 </location>
             </address>
-            <birth>1965/07/05</birth>
+            <birth>1965-07-05</birth>
             <driverLicense>NU196558</driverLicense>
         </person>
         <person id="1018">
@@ -925,7 +925,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1971/06/14</birth>
+            <birth>1971-06-14</birth>
             <driverLicense>TA661705</driverLicense>
         </person>
         <person id="1019">
@@ -940,7 +940,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1967/10/20</birth>
+            <birth>1967-10-20</birth>
             <driverLicense>ZY533462</driverLicense>
         </person>
         <person id="1020">
@@ -955,7 +955,7 @@
                     <apartment>10</apartment>
                 </location>
             </address>
-            <birth>1982/02/05</birth>
+            <birth>1982-02-05</birth>
             <driverLicense>UK340811</driverLicense>
         </person>
         <person id="1021">
@@ -970,7 +970,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1962/01/22</birth>
+            <birth>1962-01-22</birth>
             <driverLicense>PO300801</driverLicense>
         </person>
         <person id="1022">
@@ -985,7 +985,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1960/11/10</birth>
+            <birth>1960-11-10</birth>
             <driverLicense>MJ027225</driverLicense>
         </person>
         <person id="1023">
@@ -1000,7 +1000,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1967/08/19</birth>
+            <birth>1967-08-19</birth>
             <driverLicense>MC981885</driverLicense>
         </person>
         <person id="1024">
@@ -1015,7 +1015,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1972/10/19</birth>
+            <birth>1972-10-19</birth>
             <driverLicense>XU669050</driverLicense>
         </person>
         <person id="1025">
@@ -1030,7 +1030,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1969/11/20</birth>
+            <birth>1969-11-20</birth>
             <driverLicense>WS927242</driverLicense>
         </person>
         <person id="1026">
@@ -1045,7 +1045,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>2000/12/23</birth>
+            <birth>2000-12-23</birth>
             <driverLicense>VO619920</driverLicense>
         </person>
         <person id="1027">
@@ -1060,7 +1060,7 @@
                     <apartment>64</apartment>
                 </location>
             </address>
-            <birth>2001/03/24</birth>
+            <birth>2001-03-24</birth>
             <driverLicense>AQ725553</driverLicense>
         </person>
         <person id="1028">
@@ -1075,7 +1075,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>1961/06/12</birth>
+            <birth>1961-06-12</birth>
             <driverLicense>FY200686</driverLicense>
         </person>
         <person id="1029">
@@ -1090,7 +1090,7 @@
                     <apartment>5</apartment>
                 </location>
             </address>
-            <birth>1975/07/16</birth>
+            <birth>1975-07-16</birth>
             <driverLicense>DO996756</driverLicense>
         </person>
         <person id="1030">
@@ -1105,7 +1105,7 @@
                     <apartment/>
                 </location>
             </address>
-            <birth>2000/06/16</birth>
+            <birth>2000-06-16</birth>
             <driverLicense>IM386440</driverLicense>
         </person>
     </persons>
