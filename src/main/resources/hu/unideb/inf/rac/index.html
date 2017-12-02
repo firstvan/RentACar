@@ -67,6 +67,81 @@
             return element {"results"} {$getCars($eFrom, $eTo, $eSiteId)}
         </code></td>
     </tr>
+    <tr>
+        <th scope="row">5</th>
+        <td>Hány darab suv lett kikölcsönözve 2017-02-10 után, amelyet később gyártottak mint 2000? (URL paraméterezhető)</td>
+        <td><a href="http://localhost:8888/suvFromDate?mfd=2000&from=2017-02-10">Megnyit</a></td>
+        <td><code>
+            declare variable $eDate as xs:date external;<br/>
+            declare variable $eMfd as xs:integer external;<br/>
+            <br/>
+            let $getCarsCount := function($date, $mfd) {<br/>
+            element { "result" } {count(let $basePath := doc('rentacardb')/company<br/>
+            for $suv in $basePath/sites/site/rentableCars/suvs/*/vehicles/car,<br/>
+            $rented in $basePath/sites/site/rents/rent,<br/>
+            $car in $basePath/cars/car<br/>
+            where $suv/@idrefs = $rented/car/@idrefs and $rented/from > $date and<br/>
+            $suv/@idrefs = $car/@id and $car/mfd > $mfd<br/>
+            return $suv)}<br/>
+            }<br/>
+            <br/>
+            return element { "results" } {$getCarsCount($eDate, $eMfd)}
+        </code></td>
+    </tr>
+    <tr>
+        <th scope="row">6</th>
+        <td>Töröljük Suzi Murford, 2016-12-16-től 2017-10-12-ig tartó, Budapesti telephelyen végzett kölcsönzését. (Suzi Muford a 1012-es idval rendelkező ember)
+        </td>
+        <td><a href="http://localhost:8888/deleteRent">Megnyit</a></td>
+        <td><code>
+            let $deleteRent := function() {<br/>
+            for $person in doc('rentacardb')/company/persons/person<br/>
+            where $person/name eq "Suzi Murford"<br/>
+            return for $site in doc('rentacardb')/company/sites/site<br/>
+            where $site/address/city eq "Budapest"<br/>
+            return for $rent in $site/rents/rent<br/>
+            where $rent/person/@idrefs = $person/@id and $rent/from="2016-12-16" and $rent/to="2017-10-12"<br/>
+            return $rent<br/>
+            }<br/>
+
+            return delete node $deleteRent()<br/>
+        </code></td>
+    </tr>
+    <tr>
+        <th scope="row">7</th>
+        <td>Szúrjuk be az adatbázisba azt a kölcsönzést, ahol az MJ027225 jogosítvány tulajdonosa (id: 1022) a kölcsönző,
+            az XJN-961 rendszámú gépkocsit (id: 54) kölcsönözte ki a budapesti telephelyen, 2017-11-10-től 2017-12-02-ig.</td>
+        <td><a href="http://localhost:8888/addARent">Megnyit</a></td>
+        <td><code>
+            let $getSiteByName := function($nev) {<br/>
+            for $site in doc('rentacardb')/company/sites/site<br/>
+            where $site/address/city = $nev<br/>
+            return $site<br/>
+            }<br/>
+
+            let $getNextRentId := function() {<br/>
+            max(for $id in doc('rentacardb')/company/sites/site/rents/rent/id/text()<br/>
+            return xs:integer($id)) + 1<br/>
+            }<br/>
+
+            let $getPersonId := function($licNum) {<br/>
+            doc('rentacardb')/company/persons/person[driverLicense eq $licNum]/@id<br/>
+            }<br/>
+
+            let $getCar := function($licPlateNum) {<br/>
+            doc('rentacardb')/company/cars/car[licensePlateNumber eq $licPlateNum]/@id<br/>
+            }<br/>
+
+            return insert node element rent {<br/>
+            element id { $getNextRentId() },<br/>
+            element person { attribute idrefs {$getPersonId("MJ027225")} },<br/>
+            element from { "2017-11-10" },<br/>
+            element to { "2017-12-02" },<br/>
+            element distanceUnit { "Metric" },<br/>
+            element car { attribute idrefs { $getCar("XJN-961") } }<br/>
+            } into $getSiteByName('Budapest')/rents
+        </code></td>
+    </tr>
     </tbody>
 </table>
 </body>

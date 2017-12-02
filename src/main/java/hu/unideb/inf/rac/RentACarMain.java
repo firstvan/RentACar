@@ -17,7 +17,7 @@ public class RentACarMain extends Application {
         new Server(Protocol.HTTP, 8888, new RentACarMain()).start();
         firstBaseXDB = FirstBaseXDB.getInstance();
         //initDB();
-        //reinitDB();
+        reinitDB();
     }
 
     @Override
@@ -29,7 +29,9 @@ public class RentACarMain extends Application {
         router.attach("http://localhost:8888/car/{id}", CarResourceImpl.class);
         router.attach("http://localhost:8888/salesBySite/{siteId}", SalesResourceImpl.class);
         router.attach("http://localhost:8888/carsbyrentdate?siteid={siteId}&from={from}&to={to}", RentedCarsBetweenDatesBySiteImp.class);
-        router.attach("http://localhost:8888/add", StringResourceImpl.class);
+        router.attach("http://localhost:8888/suvFromDate?mfd={mfd}&from={from}", SuvFromDateImpl.class);
+        router.attach("http://localhost:8888/deleteRent", DeleteRentImpl.class);
+        router.attach("http://localhost:8888/addARent", InsertRentImpl.class);
         return router;
     }
 
