@@ -25,13 +25,16 @@ public class RentACarMain extends Application {
         Router router = new Router(getContext());
         router.setDefaultMatchingQuery(true);
         router.attach("http://localhost:8888/", IndexResourceImpl.class);
-        router.attach("http://localhost:8888/cars", CarsReourceImpl.class);
+        router.attach("http://localhost:8888/cars", CarResourceImpl.class);
         router.attach("http://localhost:8888/car/{id}", CarResourceImpl.class);
         router.attach("http://localhost:8888/salesBySite/{siteId}", SalesResourceImpl.class);
         router.attach("http://localhost:8888/carsbyrentdate?siteid={siteId}&from={from}&to={to}", RentedCarsBetweenDatesBySiteImp.class);
         router.attach("http://localhost:8888/suvFromDate?mfd={mfd}&from={from}", SuvFromDateImpl.class);
         router.attach("http://localhost:8888/deleteRent", DeleteRentImpl.class);
         router.attach("http://localhost:8888/addARent", InsertRentImpl.class);
+        router.attach("http://localhost:8888/updateDriverLicense", UpdateDriverLicenseImpl.class);
+        router.attach("http://localhost:8888/averageDistance", AverageDistanceImpl.class);
+        router.attach("http://localhost:8888/sameSiteHatchbacks", SameSiteHatchbacksImpl.class);
         return router;
     }
 

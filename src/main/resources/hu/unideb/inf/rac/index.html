@@ -142,6 +142,50 @@
             } into $getSiteByName('Budapest')/rents
         </code></td>
     </tr>
+    <tr>
+        <th scope="row">8</th>
+        <td>Módosítsuk a Kuala Lumpurban élők jogosítványának azonosítójának az előtagját KL-re.
+        </td>
+        <td><a href="http://localhost:8888/updateDriverLicense">Megnyit</a></td>
+        <td><code>
+            declare variable $cityName as xs:string:='Kuala Lumpur';<br/>
+            let $person := doc('rentacardb')/company/persons/person<br/>
+            let $old := $person/address[city=$cityName]/../driverLicense<br/>
+            let $new := concat('KL',substring($old, 3))<br/>
+            return replace value of node $old with $new<br/>
+        </code></td>
+    </tr>
+    <tr>
+        <th scope="row">9</th>
+        <td>Átlagosan hány kilómétert tettek meg azokkal a family járművekkel, amelyek 1.6-nál nagyobbak?
+        </td>
+        <td><a href="http://localhost:8888/averageDistance">Megnyit</a></td>
+        <td><code>
+            avg(for $r in doc('rentacardb')/company/sites/site/rents/rent<br/>
+            for $c in doc('rentacardb')/company/cars/car<br/>
+            where $c[category='familycar']<br/>
+            and $c[engine>1.6]<br/>
+            and $r/car/@idrefs=$c/@id<br/>
+            return $r/distance)<br/>
+        </code></td>
+    </tr>
+    <tr>
+        <th scope="row">10</th>
+        <td>Listázzuk ki azokat a benzines hatchback autókat, amelyek ugyanazon a telepen vannak mint az eladó Madelena Farrant!
+        </td>
+        <td><a href="http://localhost:8888/sameSiteHatchbacks">Megnyit</a></td>
+        <td><code>
+            let $madelenaId := (for $x in  doc('rentacardb')/company/persons/person<br/>
+            where $x/name = 'Madelena Farrant'<br/>
+            return $x/@id)<br/>
+            let $carId := (for $site in  doc('rentacardb')/company/sites/site<br/>
+            where $site/employee/salesperson/person/@idrefs=$madelenaId<br/>
+            return $site/rentableCars/hatchbacks/petrol/vehicles/car/@idrefs)<br/>
+            for $car in  doc('rentacardb')/company/cars/car<br/>
+            where $car/@id=$carId<br/>
+            return $car<br/>
+        </code></td>
+    </tr>
     </tbody>
 </table>
 </body>
